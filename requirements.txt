@@ -1,0 +1,11 @@
+protobuf
+datasets
+pandas
+langextract==1.0.7
+python-dotenv
+google-genai==1.30.0
+pydantic
+neo4j
+spacy
+transformers[torch]
+numpy

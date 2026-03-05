@@ -1,0 +1,33 @@
+// Create concept-level nodes
+CREATE
+  (:Concept {name: "Innate_lymphoid_cells", type: "cell_category", scale: "concept"}),
+  (:Concept {name: "Inflammatory_disorders", type: "disease_category", scale: "concept"}),
+  (:Concept {name: "Respiratory_conditions", type: "disease_category", scale: "concept"}),
+  (:Concept {name: "Cell_surface_markers", type: "biomarker_category", scale: "concept"}),
+  (:Concept {name: "Inflammatory_pathways", type: "biological_process", scale: "concept"}),
+  (:Concept {name: "Surgical_procedures", type: "intervention_category", scale: "concept"}),
+  (:Concept {name: "Diagnostic_methods", type: "procedure_category", scale: "concept"}),
+  (:Concept {name: "Metabolic_enzymes", type: "protein_category", scale: "concept"}),
+  (:Concept {name: "Neurological_structures", type: "anatomical_category", scale: "concept"}),
+  (:Concept {name: "Liver_diseases", type: "disease_category", scale: "concept"}),
+  (:Concept {name: "Natural_compounds", type: "drug_category", scale: "concept"}),
+  (:Concept {name: "Cancer_cell_lines", type: "cellular_model", scale: "concept"}),
+  (:Concept {name: "Regulatory_proteins", type: "protein_category", scale: "concept"}),
+  (:Concept {name: "Cellular_processes", type: "biological_process", scale: "concept"})
+
+
+ // Create concept-level relationships
+ MATCH (ilc:Concept {name: "Innate_lymphoid_cells"}), (inflam:Concept {name: "Inflammatory_pathways"})
+ CREATE (ilc)-[:DRIVES_PATHWAY {confidence: 0.9, evidence: "high"}]->(inflam);
+
+ MATCH (resp:Concept {name: "Respiratory_conditions"}), (surg:Concept {name: "Surgical_procedures"})
+ CREATE (resp)-[:TREATED_BY {confidence: 0.8, evidence: "medium"}]->(surg);
+
+ MATCH (markers:Concept {name: "Cell_surface_markers"}), (diag:Concept {name: "Diagnostic_methods"})
+ CREATE (markers)-[:MEASURED_BY {confidence: 0.95, evidence: "high"}]->(diag);
+
+ MATCH (natural:Concept {name: "Natural_compounds"}), (regulatory:Concept {name: "Regulatory_proteins"})
+ CREATE (natural)-[:MODULATES {confidence: 0.8, evidence: "medium"}]->(regulatory);
+
+ MATCH (regulatory:Concept {name: "Regulatory_proteins"}), (cellular:Concept {name: "Cellular_processes"})
+ CREATE (regulatory)-[:CONTROLS {confidence: 0.9, evidence: "high"}]->(cellular);

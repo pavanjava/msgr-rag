@@ -1,0 +1,25 @@
+// Create domain-level nodes
+CREATE
+  (:Domain {name: "Immunology", type: "medical_specialty", scale: "domain"}),
+  (:Domain {name: "Respiratory_medicine", type: "medical_specialty", scale: "domain"}),
+  (:Domain {name: "Oncology", type: "medical_specialty", scale: "domain"}),
+  (:Domain {name: "Gastroenterology", type: "medical_specialty", scale: "domain"}),
+  (:Domain {name: "Neurology", type: "medical_specialty", scale: "domain"}),
+  (:Domain {name: "Pharmacology", type: "research_domain", scale: "domain"}),
+  (:Domain {name: "Cell_biology", type: "research_domain", scale: "domain"}),
+  (:Domain {name: "Molecular_biology", type: "research_domain", scale: "domain"}),
+  (:Domain {name: "Clinical_medicine", type: "practice_domain", scale: "domain"}),
+  (:Domain {name: "Biomedical_research", type: "research_domain", scale: "domain"})
+
+ // Create domain-level relationships
+ MATCH (immuno:Domain {name: "Immunology"}), (resp:Domain {name: "Respiratory_medicine"})
+ CREATE (immuno)-[:COLLABORATES_WITH {confidence: 0.8, evidence: "medium"}]->(resp);
+
+ MATCH (onco:Domain {name: "Oncology"}), (pharma:Domain {name: "Pharmacology"})
+ CREATE (onco)-[:UTILIZES {confidence: 0.9, evidence: "high"}]->(pharma);
+
+ MATCH (cell_bio:Domain {name: "Cell_biology"}), (mol_bio:Domain {name: "Molecular_biology"})
+ CREATE (cell_bio)-[:OVERLAPS_WITH {confidence: 0.95, evidence: "high"}]->(mol_bio);
+
+ MATCH (clinical:Domain {name: "Clinical_medicine"}), (research:Domain {name: "Biomedical_research"})
+ CREATE (clinical)-[:INFORMED_BY {confidence: 0.85, evidence: "high"}]->(research);
