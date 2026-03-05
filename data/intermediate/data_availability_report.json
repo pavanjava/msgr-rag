@@ -1,0 +1,102 @@
+{
+  "dataset_info": {
+    "total_drugs_in_dataset": 16761,
+    "selected_drugs": 100,
+    "selection_date": "2025-12-21 18:12:46"
+  },
+  "relationship_feasibility": {
+    "interacts_with": {
+      "extractable_from": [
+        "drug-interactions"
+      ],
+      "drugs_with_data": 4478,
+      "percentage": 26.72,
+      "confidence": "high"
+    },
+    "causes": {
+      "extractable_from": [
+        "toxicity",
+        "snp-adverse-drug-reactions"
+      ],
+      "drugs_with_data": 2432,
+      "percentage": 14.51,
+      "keyword_matches": {
+        "hepatotoxic": 53,
+        "nephrotoxic": 32,
+        "cardiotoxic": 13,
+        "neurotoxic": 15,
+        "LD50": 482,
+        "carcinogen": 262,
+        "teratogenic": 64,
+        "adverse": 623,
+        "toxic": 824
+      },
+      "confidence": "high"
+    },
+    "treats": {
+      "extractable_from": [
+        "description",
+        "indication"
+      ],
+      "drugs_with_data": 13060,
+      "percentage": 77.92,
+      "source_counts": {
+        "description": 12929,
+        "indication": 4174
+      },
+      "confidence": "medium"
+    }
+  },
+  "therapeutic_distribution": {
+    "Cardiovascular": 10,
+    "Endocrine": 10,
+    "Neurological": 10,
+    "Anti-inflammatory": 10,
+    "Antibiotics": 10,
+    "Gastrointestinal": 10,
+    "Respiratory": 10,
+    "Oncology": 10,
+    "Psychiatric": 10,
+    "Other": 10
+  },
+  "domain_distribution": {
+    "Cardiology": 10,
+    "Endocrinology": 10,
+    "Neurology": 10,
+    "Rheumatology": 10,
+    "Infectious_Disease": 10,
+    "Gastroenterology": 10,
+    "Pulmonology": 10,
+    "Oncology": 10,
+    "Psychiatry": 10,
+    "General_Medicine": 10
+  },
+  "data_quality": {
+    "mean_data_score": 1.0,
+    "min_data_score": 1.0,
+    "max_data_score": 1.0,
+    "drugs_with_interactions": 100,
+    "drugs_with_toxicity": 100
+  },
+  "concept_mapping_strategy": [
+    "Use therapeutic area clustering (secondary)",
+    "Manual mapping for edge cases (tertiary)"
+  ],
+  "domain_mapping": {
+    "Cardiovascular": "Cardiology",
+    "Endocrine": "Endocrinology",
+    "Neurological": "Neurology",
+    "Anti-inflammatory": "Rheumatology",
+    "Antibiotics": "Infectious_Disease",
+    "Gastrointestinal": "Gastroenterology",
+    "Respiratory": "Pulmonology",
+    "Oncology": "Oncology",
+    "Psychiatric": "Psychiatry",
+    "Other": "General_Medicine"
+  },
+  "selection_criteria": {
+    "diversity": "Selected 10 drugs from each of 10 therapeutic areas",
+    "prioritization": "Drugs with interaction AND toxicity data prioritized",
+    "scoring": "Data completeness score (0-1) based on available relationship data"
+  }
+}

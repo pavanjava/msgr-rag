@@ -1,0 +1,100 @@
+================================================================================
+MSGR-RAG VERIFICATION - DETAILED WALKTHROUGH
+================================================================================
+
+
+EXAMPLE 1: VERIFIED
+--------------------------------------------------------------------------------
+Fact: (Iloprost, treats, Hypertension)
+
+Multi-Scale Verification:
+  S_E (Entity):  1.000
+  S_C (Concept): 1.000
+  S_D (Domain):  0.500
+
+Cross-Scale Consistency:
+  C(f): 0.630
+
+Confidence:
+  Conf(f): 0.807
+
+Patterns Detected:
+  None
+
+Decision: HALLUCINATION
+Level: 1.0
+Reason: Low cross-scale consistency (C(f)=0.630 < 0.8)
+
+================================================================================
+
+EXAMPLE 2: VERIFIED
+--------------------------------------------------------------------------------
+Fact: (Oxazepam, treats, Anxiety)
+
+Multi-Scale Verification:
+  S_E (Entity):  1.000
+  S_C (Concept): 1.000
+  S_D (Domain):  1.000
+
+Cross-Scale Consistency:
+  C(f): 1.000
+
+Confidence:
+  Conf(f): 1.000
+
+Patterns Detected:
+  None
+
+Decision: VERIFIED
+Level: nan
+Reason: All checks passed (C(f)=1.000, Conf(f)=1.000, no patterns)
+
+================================================================================
+
+EXAMPLE 3: VERIFIED
+--------------------------------------------------------------------------------
+Fact: (Iloprost, treats, Hypertension)
+
+Multi-Scale Verification:
+  S_E (Entity):  1.000
+  S_C (Concept): 1.000
+  S_D (Domain):  0.500
+
+Cross-Scale Consistency:
+  C(f): 0.630
+
+Confidence:
+  Conf(f): 0.807
+
+Patterns Detected:
+  None
+
+Decision: HALLUCINATION
+Level: 1.0
+Reason: Low cross-scale consistency (C(f)=0.630 < 0.8)
+
+================================================================================
+
+EXAMPLE 4: HALLUCINATION
+--------------------------------------------------------------------------------
+Fact: (Everolimus, causes, Nephrotoxicity)
+
+Multi-Scale Verification:
+  S_E (Entity):  0.100
+  S_C (Concept): 0.200
+  S_D (Domain):  0.300
+
+Cross-Scale Consistency:
+  C(f): 0.865
+
+Confidence:
+  Conf(f): 0.356
+
+Patterns Detected:
+  None
+
+Decision: HALLUCINATION
+Level: 3.0
+Reason: Low overall confidence (Conf(f)=0.356 < 0.5)
+
+================================================================================

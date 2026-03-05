@@ -1,0 +1,17 @@
+{
+  "interacts_with": {
+    "total_drugs_with_data": 100,
+    "percentage": 100.0
+  },
+  "causes": {
+    "total_drugs_with_data": 100,
+    "percentage": 100.0
+  },
+  "treats": {
+    "estimation": "Will be extracted from categories/description in Component 2",
+    "sources": [
+      "description",
+      "indication"
+    ]
+  }
+}

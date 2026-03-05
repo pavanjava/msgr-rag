@@ -1,0 +1,58 @@
+{
+  "extraction_date": "2025-12-21 18:41:20",
+  "input_drugs": 120,
+  "entities": {
+    "total": 149,
+    "drugs": 95,
+    "adverse_effects": 17,
+    "conditions": 42
+  },
+  "relationships": {
+    "total": 103552,
+    "interacts_with": 103219,
+    "causes": 144,
+    "treats": 189
+  },
+  "extraction_quality": {
+    "drugs_with_interactions": 95,
+    "drugs_with_toxicity": 67,
+    "drugs_with_treats": 83,
+    "avg_relationships_per_drug": 862.9333333333333
+  },
+  "top_connected_drugs": {
+    "Zonisamide": 2253,
+    "Stiripentol": 2101,
+    "Promethazine": 2008,
+    "Acetylsalicylic acid": 1763,
+    "Zuclopenthixol": 1733,
+    "Methotrimeprazine": 1732,
+    "Phenylbutazone": 1695,
+    "Triazolam": 1680,
+    "Ifosfamide": 1676,
+    "Phenprocoumon": 1615
+  },
+  "most_common_adverse_effects": {
+    "Nausea": 20,
+    "Vomiting": 20,
+    "Diarrhea": 20,
+    "Hypotension": 18,
+    "Dizziness": 11,
+    "Bleeding": 10,
+    "Drowsiness": 9,
+    "Sedation": 8,
+    "Carcinogenicity": 7,
+    "Hypertension": 5
+  },
+  "most_treated_conditions": {
+    "Infection": 16,
+    "Cancer": 12,
+    "Pain": 11,
+    "Psychosis": 10,
+    "Bacterial_Infection": 10,
+    "Arthritis": 8,
+    "Nausea": 7,
+    "Gastric_Disorders": 6,
+    "Seizure": 6,
+    "Schizophrenia": 6
+  }
+}
