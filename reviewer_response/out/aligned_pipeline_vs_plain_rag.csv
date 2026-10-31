@@ -1,0 +1,21 @@
+subset,system,acc
+resolved (n=733),MSGR pipeline (UNKNOWN=error),0.7572
+resolved (n=733),Plain RAG,0.7885
+resolved (n=733),  Absent MSGR (n=170),0.9824
+resolved (n=733),  Absent Plain RAG,1.0
+resolved (n=733),  Predicate-swapped MSGR (n=154),0.3896
+resolved (n=733),  Predicate-swapped Plain RAG,0.2532
+resolved (n=733),  Domain-inconsistent MSGR (n=50),1.0
+resolved (n=733),  Domain-inconsistent Plain RAG,0.94
+resolved (n=733),  Real MSGR (n=359),0.7744
+resolved (n=733),  Real Plain RAG,0.8969
+all 974,MSGR pipeline (UNKNOWN=error),0.5698
+all 974,Plain RAG,0.7977
+all 974,  Absent MSGR (n=299),0.5585
+all 974,  Absent Plain RAG,0.9933
+all 974,  Predicate-swapped MSGR (n=200),0.3
+all 974,  Predicate-swapped Plain RAG,0.36
+all 974,  Domain-inconsistent MSGR (n=75),0.6667
+all 974,  Domain-inconsistent Plain RAG,0.9467
+all 974,  Real MSGR (n=400),0.695
+all 974,  Real Plain RAG,0.8425

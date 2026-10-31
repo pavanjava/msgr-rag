@@ -1,0 +1,101 @@
+drugbank-id,name,mapping_source,atc_l1_domain,atc_l1_count
+DB00001,Lepirudin,atc_grounded_single,BLOOD AND BLOOD FORMING ORGANS,1
+DB00903,Etacrynic acid,atc_grounded_single,CARDIOVASCULAR SYSTEM,1
+DB00927,Famotidine,atc_grounded_single,ALIMENTARY TRACT AND METABOLISM,1
+DB00945,Acetylsalicylic acid,fallback_multi_domain,,5
+DB00946,Phenprocoumon,atc_grounded_single,BLOOD AND BLOOD FORMING ORGANS,1
+DB00966,Telmisartan,atc_grounded_single,CARDIOVASCULAR SYSTEM,1
+DB00968,Methyldopa,atc_grounded_single,CARDIOVASCULAR SYSTEM,1
+DB00973,Ezetimibe,fallback_multi_domain,,2
+DB00975,Dipyridamole,atc_grounded_single,BLOOD AND BLOOD FORMING ORGANS,1
+DB00986,Glycopyrronium,fallback_multi_domain,,3
+DB09046,Metreleptin,atc_grounded_single,ALIMENTARY TRACT AND METABOLISM,1
+DB04855,Dronedarone,atc_grounded_single,CARDIOVASCULAR SYSTEM,1
+DB01380,Cortisone acetate,fallback_no_atc,,0
+DB01436,Alfacalcidol,fallback_multi_domain,,2
+DB01583,Liotrix,fallback_no_atc,,0
+DB01590,Everolimus,atc_grounded_single,ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,1
+DB01593,Zinc,atc_grounded_single,CARDIOVASCULAR SYSTEM,1
+DB01608,Periciazine,atc_grounded_single,NERVOUS SYSTEM,1
+DB04876,Vildagliptin,atc_grounded_single,ALIMENTARY TRACT AND METABOLISM,1
+DB01276,Exenatide,atc_grounded_single,ALIMENTARY TRACT AND METABOLISM,1
+DB11951,Lemborexant,atc_grounded_single,NERVOUS SYSTEM,1
+DB09118,Stiripentol,atc_grounded_single,NERVOUS SYSTEM,1
+DB00950,Fexofenadine,atc_grounded_single,RESPIRATORY SYSTEM,1
+DB00949,Felbamate,atc_grounded_single,NERVOUS SYSTEM,1
+DB00933,Mesoridazine,atc_grounded_single,NERVOUS SYSTEM,1
+DB00915,Amantadine,atc_grounded_single,NERVOUS SYSTEM,1
+DB00909,Zonisamide,fallback_multi_domain,,2
+DB00906,Tiagabine,atc_grounded_single,NERVOUS SYSTEM,1
+DB00853,Temozolomide,atc_grounded_single,ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,1
+DB09119,Eslicarbazepine acetate,fallback_no_atc,,0
+DB00812,Phenylbutazone,atc_grounded_single,MUSCULO-SKELETAL SYSTEM,1
+DB00861,Diflunisal,atc_grounded_single,NERVOUS SYSTEM,1
+DB06168,Canakinumab,atc_grounded_single,ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,1
+DB00993,Azathioprine,atc_grounded_single,ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,1
+DB00991,Oxaprozin,atc_grounded_single,MUSCULO-SKELETAL SYSTEM,1
+DB00939,Meclofenamic acid,atc_grounded_single,MUSCULO-SKELETAL SYSTEM,1
+DB06271,Sulodexide,atc_grounded_single,BLOOD AND BLOOD FORMING ORGANS,1
+DB00929,Misoprostol,fallback_multi_domain,,3
+DB00878,Chlorhexidine,fallback_multi_domain,,5
+DB00877,Sirolimus,fallback_multi_domain,,2
+DB00978,Lomefloxacin,fallback_multi_domain,,2
+DB00615,Rifabutin,fallback_multi_domain,,2
+DB01150,Cefprozil,atc_grounded_single,ANTIINFECTIVES FOR SYSTEMIC USE,1
+DB01147,Cloxacillin,atc_grounded_single,ANTIINFECTIVES FOR SYSTEMIC USE,1
+DB01137,Levofloxacin,fallback_multi_domain,,3
+DB01117,Atovaquone,atc_grounded_single,"ANTIPARASITIC PRODUCTS, INSECTICIDES AND REPELLENTS",1
+DB01112,Cefuroxime,fallback_multi_domain,,2
+DB01045,Rifampicin,atc_grounded_single,ANTIINFECTIVES FOR SYSTEMIC USE,1
+DB01026,Ketoconazole,fallback_multi_domain,,4
+DB00976,Telithromycin,atc_grounded_single,ANTIINFECTIVES FOR SYSTEMIC USE,1
+DB09020,Bisacodyl,atc_grounded_single,ALIMENTARY TRACT AND METABOLISM,1
+DB01614,Acepromazine,atc_grounded_single,NERVOUS SYSTEM,1
+DB00831,Trifluoperazine,atc_grounded_single,NERVOUS SYSTEM,1
+DB00863,Ranitidine,atc_grounded_single,ALIMENTARY TRACT AND METABOLISM,1
+DB00921,Buprenorphine,atc_grounded_single,NERVOUS SYSTEM,1
+DB11098,Potassium bicarbonate,atc_grounded_single,ALIMENTARY TRACT AND METABOLISM,1
+DB00985,Dimenhydrinate,atc_grounded_single,RESPIRATORY SYSTEM,1
+DB01004,Ganciclovir,fallback_multi_domain,,2
+DB01046,Lubiprostone,atc_grounded_single,ALIMENTARY TRACT AND METABOLISM,1
+DB11097,Plantago seed,fallback_no_atc,,0
+DB00013,Urokinase,atc_grounded_single,BLOOD AND BLOOD FORMING ORGANS,1
+DB01592,Iron,fallback_multi_domain,,2
+DB00920,Ketotifen,fallback_multi_domain,,2
+DB00956,Hydrocodone,atc_grounded_single,RESPIRATORY SYSTEM,1
+DB01003,Cromoglicic acid,fallback_multi_domain,,4
+DB01060,Amoxicillin,fallback_multi_domain,,2
+DB01069,Promethazine,fallback_multi_domain,,3
+DB01088,Iloprost,atc_grounded_single,BLOOD AND BLOOD FORMING ORGANS,1
+DB01114,Chlorpheniramine,atc_grounded_single,RESPIRATORY SYSTEM,1
+DB01225,Enoxaparin,atc_grounded_single,BLOOD AND BLOOD FORMING ORGANS,1
+DB00904,Ondansetron,atc_grounded_single,ALIMENTARY TRACT AND METABOLISM,1
+DB12141,Gilteritinib,atc_grounded_single,ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,1
+DB01181,Ifosfamide,atc_grounded_single,ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,1
+DB01168,Procarbazine,atc_grounded_single,ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,1
+DB09502,Fludeoxyglucose (18F),atc_grounded_single,VARIOUS,1
+DB01042,Melphalan,atc_grounded_single,ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,1
+DB01033,Mercaptopurine,fallback_multi_domain,,2
+DB01030,Topotecan,atc_grounded_single,ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,1
+DB01005,Hydroxyurea,atc_grounded_single,ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,1
+DB12147,Erdafitinib,atc_grounded_single,ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,1
+DB01623,Thiothixene,atc_grounded_single,NERVOUS SYSTEM,1
+DB12161,Deutetrabenazine,atc_grounded_single,NERVOUS SYSTEM,1
+DB01588,Prazepam,atc_grounded_single,NERVOUS SYSTEM,1
+DB06016,Cariprazine,atc_grounded_single,NERVOUS SYSTEM,1
+DB01624,Zuclopenthixol,atc_grounded_single,NERVOUS SYSTEM,1
+DB00842,Oxazepam,atc_grounded_single,NERVOUS SYSTEM,1
+DB00850,Perphenazine,atc_grounded_single,NERVOUS SYSTEM,1
+DB00875,Flupentixol,atc_grounded_single,NERVOUS SYSTEM,1
+DB00897,Triazolam,atc_grounded_single,NERVOUS SYSTEM,1
+DB00924,Cyclobenzaprine,atc_grounded_single,MUSCULO-SKELETAL SYSTEM,1
+DB06176,Romidepsin,atc_grounded_single,ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,1
+DB15598,Ferric maltol,atc_grounded_single,BLOOD AND BLOOD FORMING ORGANS,1
+DB00211,Midodrine,atc_grounded_single,CARDIOVASCULAR SYSTEM,1
+DB01403,Methotrimeprazine,atc_grounded_single,NERVOUS SYSTEM,1
+DB00761,Potassium chloride,fallback_multi_domain,,2
+DB01395,Drospirenone,atc_grounded_single,GENITO URINARY SYSTEM AND SEX HORMONES,1
+DB12070,Letermovir,atc_grounded_single,ANTIINFECTIVES FOR SYSTEMIC USE,1
+DB00216,Eletriptan,atc_grounded_single,NERVOUS SYSTEM,1
+DB15561,Valoctocogene roxaparvovec,fallback_no_atc,,0
+DB00765,Metyrosine,atc_grounded_single,CARDIOVASCULAR SYSTEM,1

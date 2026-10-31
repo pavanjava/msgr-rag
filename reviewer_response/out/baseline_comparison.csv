@@ -1,0 +1,4 @@
+,n,acc,prec,rec,f1,FP,FN
+MSGR core (full rule),974.0,0.9127,0.871,1.0,0.9311,85.0,0.0
+Closed-book gemma3 judge,974.0,0.617,0.6563,0.7352,0.6935,221.0,152.0
+TF-IDF (aligned subset),914.0,0.686,1.0,0.4416,0.6127,0.0,287.0

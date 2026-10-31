@@ -1,0 +1,61 @@
+{
+  "overall_metrics_resolved_subset": {
+    "TP": 277,
+    "TN": 278,
+    "FP": 81,
+    "FN": 97,
+    "accuracy": 0.757162346521146,
+    "precision": 0.7737430167597765,
+    "recall": 0.7406417112299465,
+    "f1": 0.7568306010928962
+  },
+  "category_metrics_resolved_subset": {
+    "nonexistent_relationship": {
+      "TP": 167,
+      "TN": 0,
+      "FP": 0,
+      "FN": 3,
+      "accuracy": 0.9823529411764705,
+      "precision": 1.0,
+      "recall": 0.9823529411764705,
+      "f1": 0.9910979228486646
+    },
+    "real_edge": {
+      "TP": 0,
+      "TN": 278,
+      "FP": 81,
+      "FN": 0,
+      "accuracy": 0.7743732590529248,
+      "precision": 0.0,
+      "recall": 0,
+      "f1": 0
+    },
+    "wrong_predicate": {
+      "TP": 60,
+      "TN": 0,
+      "FP": 0,
+      "FN": 94,
+      "accuracy": 0.38961038961038963,
+      "precision": 1.0,
+      "recall": 0.38961038961038963,
+      "f1": 0.5607476635514019
+    },
+    "domain_violation": {
+      "TP": 50,
+      "TN": 0,
+      "FP": 0,
+      "FN": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "coverage": {
+    "total": 974,
+    "resolved": 733,
+    "unknown": 238,
+    "extraction_failed": 3
+  },
+  "worst_case_accuracy_all_facts": 0.5698151950718686
+}

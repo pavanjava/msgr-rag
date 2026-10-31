@@ -1,0 +1,5 @@
+,acc,acc,prec,prec,rec,rec,f1,f1,acc_nonexistent_relationship,acc_nonexistent_relationship,acc_wrong_predicate,acc_wrong_predicate,acc_domain_violation,acc_domain_violation,acc_real_edge,acc_real_edge
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+kind,,,,,,,,,,,,,,,,
+conf_only,0.9984,0.0018,1.0,0.0,0.9972,0.0031,0.9986,0.0016,1.0,0.0,0.992,0.0089,1.0,0.0,1.0,0.0
+full,0.9116,0.0107,0.8699,0.0138,1.0,0.0,0.9304,0.0079,1.0,0.0,1.0,0.0,1.0,0.0,0.7842,0.0261

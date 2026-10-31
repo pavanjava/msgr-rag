@@ -1,0 +1,975 @@
+i,subject,predicate,object,ground_truth,category,raw,judge_decision
+0,Hypotension,treats,Telithromycin,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+1,Metreleptin,treats,Telmisartan,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+2,Hyperglycemia,treats,Liotrix,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+3,Everolimus,treats,Dimenhydrinate,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+4,Sirolimus,causes,Cromoglicic acid,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+5,Ototoxicity,causes,Iloprost,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+6,Prazepam,interacts_with,Zuclopenthixol,VERIFIED,real_edge,FALSE,HALLUCINATION
+7,Glycopyrronium,treats,Ferric maltol,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+8,Teratogenicity,causes,Vomiting,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+9,Ranitidine,interacts_with,Lubiprostone,VERIFIED,real_edge,FALSE,HALLUCINATION
+10,Buprenorphine,treats,Bacterial_Infection,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+11,Oxaprozin,interacts_with,Buprenorphine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+12,Diflunisal,treats,Methotrimeprazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+13,Lomefloxacin,treats,Oxaprozin,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+14,Felbamate,interacts_with,Dimenhydrinate,VERIFIED,real_edge,TRUE,VERIFIED
+15,Ferric maltol,treats,Angina,HALLUCINATION,domain_violation,TRUE,VERIFIED
+16,Buprenorphine,interacts_with,Acepromazine,VERIFIED,real_edge,TRUE,VERIFIED
+17,Trifluoperazine,interacts_with,Eslicarbazepine acetate,VERIFIED,real_edge,FALSE,HALLUCINATION
+18,Hydrocodone,interacts_with,Enoxaparin,HALLUCINATION,domain_violation,TRUE,VERIFIED
+19,Drospirenone,treats,Fever,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+20,Telmisartan,interacts_with,Potassium bicarbonate,VERIFIED,real_edge,TRUE,VERIFIED
+21,Rifabutin,interacts_with,Phenprocoumon,VERIFIED,real_edge,TRUE,VERIFIED
+22,Fludeoxyglucose (18F),interacts_with,Thyroid_Disorders,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+23,Flupentixol,interacts_with,Dronedarone,VERIFIED,real_edge,TRUE,VERIFIED
+24,Constipation,causes,Cefuroxime,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+25,Alfacalcidol,causes,Diarrhea,VERIFIED,real_edge,TRUE,VERIFIED
+26,Periciazine,causes,Lomefloxacin,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+27,Ifosfamide,treats,Everolimus,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+28,Famotidine,treats,Cefuroxime,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+29,Thyroid_Disorders,interacts_with,Etacrynic acid,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+30,Dimenhydrinate,interacts_with,Dronedarone,VERIFIED,real_edge,TRUE,VERIFIED
+31,Cyclobenzaprine,interacts_with,Felbamate,VERIFIED,real_edge,TRUE,VERIFIED
+32,Ondansetron,interacts_with,Levofloxacin,VERIFIED,real_edge,FALSE,HALLUCINATION
+33,Azathioprine,causes,Bleeding,VERIFIED,real_edge,TRUE,VERIFIED
+34,Zonisamide,interacts_with,Felbamate,VERIFIED,real_edge,TRUE,VERIFIED
+35,Flupentixol,interacts_with,Periciazine,VERIFIED,real_edge,TRUE,VERIFIED
+36,Iron,causes,Bleeding,HALLUCINATION,domain_violation,TRUE,VERIFIED
+37,Eletriptan,interacts_with,Ketoconazole,VERIFIED,real_edge,TRUE,VERIFIED
+38,Enoxaparin,causes,Angina,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+39,Zonisamide,interacts_with,Dimenhydrinate,VERIFIED,real_edge,TRUE,VERIFIED
+40,Rifabutin,treats,Dizziness,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+41,Cefuroxime,interacts_with,Sulodexide,VERIFIED,real_edge,FALSE,HALLUCINATION
+42,Nephrotoxicity,causes,Sulodexide,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+43,Midodrine,treats,Dronedarone,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+44,Dimenhydrinate,causes,Gilteritinib,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+45,Methyldopa,interacts_with,Chlorhexidine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+46,Ketoconazole,treats,Cefprozil,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+47,Flupentixol,interacts_with,Dimenhydrinate,VERIFIED,real_edge,TRUE,VERIFIED
+48,Diflunisal,causes,Ketoconazole,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+49,Hypoglycemia,treats,Dizziness,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+50,Exenatide,treats,Diarrhea,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+51,Diflunisal,causes,Acepromazine,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+52,Thiothixene,interacts_with,Gilteritinib,VERIFIED,real_edge,FALSE,HALLUCINATION
+53,Tiagabine,interacts_with,Felbamate,VERIFIED,real_edge,TRUE,VERIFIED
+54,Cortisone acetate,causes,Metreleptin,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+55,Trifluoperazine,interacts_with,Rifampicin,VERIFIED,real_edge,TRUE,VERIFIED
+56,Rifampicin,interacts_with,Zuclopenthixol,VERIFIED,real_edge,TRUE,VERIFIED
+57,Lomefloxacin,causes,Lymphoma,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+58,Amantadine,treats,Viral_Infection,VERIFIED,real_edge,TRUE,VERIFIED
+59,Eslicarbazepine acetate,treats,Anxiety,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+60,Eletriptan,interacts_with,Migraine,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+61,Telmisartan,causes,Ketoconazole,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+62,Ondansetron,interacts_with,Lomefloxacin,VERIFIED,real_edge,FALSE,HALLUCINATION
+63,Diflunisal,interacts_with,Chlorpheniramine,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+64,Lomefloxacin,interacts_with,Ferric maltol,VERIFIED,real_edge,FALSE,HALLUCINATION
+65,Promethazine,interacts_with,Zuclopenthixol,VERIFIED,real_edge,TRUE,VERIFIED
+66,Ketoconazole,interacts_with,Etacrynic acid,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+67,Sulodexide,interacts_with,Psychosis,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+68,Arthritis,treats,Eslicarbazepine acetate,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+69,Telithromycin,interacts_with,Exenatide,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+70,Dipyridamole,causes,Topotecan,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+71,Hepatotoxicity,treats,Ototoxicity,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+72,Drospirenone,causes,Letermovir,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+73,Metreleptin,interacts_with,Erdafitinib,VERIFIED,real_edge,FALSE,HALLUCINATION
+74,Flupentixol,treats,Topotecan,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+75,Bisacodyl,treats,Cloxacillin,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+76,Cefprozil,treats,Cough,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+77,Everolimus,interacts_with,Deutetrabenazine,VERIFIED,real_edge,TRUE,VERIFIED
+78,Hydrocodone,interacts_with,Acepromazine,VERIFIED,real_edge,TRUE,VERIFIED
+79,Perphenazine,interacts_with,Ranitidine,VERIFIED,real_edge,FALSE,HALLUCINATION
+80,Cortisone acetate,interacts_with,Drospirenone,VERIFIED,real_edge,FALSE,HALLUCINATION
+81,Ketotifen,interacts_with,Amoxicillin,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+82,Plantago seed,causes,Migraine,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+83,Dimenhydrinate,interacts_with,Eslicarbazepine acetate,VERIFIED,real_edge,TRUE,VERIFIED
+84,Heart_Failure,treats,Rifabutin,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+85,Ganciclovir,causes,Carcinogenicity,VERIFIED,real_edge,FALSE,HALLUCINATION
+86,Fungal_Infection,interacts_with,Nephrotoxicity,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+87,Amoxicillin,interacts_with,Tiagabine,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+88,Rifampicin,interacts_with,Cortisone acetate,VERIFIED,real_edge,FALSE,HALLUCINATION
+89,Plantago seed,treats,Constipation,VERIFIED,real_edge,TRUE,VERIFIED
+90,Sirolimus,interacts_with,Azathioprine,VERIFIED,real_edge,TRUE,VERIFIED
+91,Lepirudin,treats,Sirolimus,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+92,Prazepam,interacts_with,Cariprazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+93,Oxaprozin,treats,Lymphoma,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+94,Diflunisal,interacts_with,Deutetrabenazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+95,Procarbazine,treats,Deutetrabenazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+96,Hyperglycemia,causes,Ifosfamide,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+97,Diarrhea,interacts_with,Levofloxacin,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+98,Methotrimeprazine,interacts_with,Vildagliptin,VERIFIED,real_edge,FALSE,HALLUCINATION
+99,Rifampicin,interacts_with,Flupentixol,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+100,Buprenorphine,interacts_with,Procarbazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+101,Buprenorphine,treats,Telithromycin,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+102,Tiagabine,causes,Ketoconazole,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+103,Oxazepam,causes,Letermovir,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+104,Promethazine,causes,Cariprazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+105,Cefprozil,interacts_with,Glycopyrronium,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+106,Buprenorphine,interacts_with,Lubiprostone,VERIFIED,real_edge,FALSE,HALLUCINATION
+107,Felbamate,treats,Cardiac_Conditions,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+108,Buprenorphine,interacts_with,Cariprazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+109,Cyclobenzaprine,interacts_with,Erdafitinib,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+110,Eletriptan,causes,Phenprocoumon,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+111,Flupentixol,interacts_with,Hydroxyurea,VERIFIED,real_edge,FALSE,HALLUCINATION
+112,Plantago seed,treats,Asthma,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+113,Glycopyrronium,treats,COPD,VERIFIED,real_edge,FALSE,HALLUCINATION
+114,Lepirudin,interacts_with,Cefprozil,VERIFIED,real_edge,FALSE,HALLUCINATION
+115,Buprenorphine,interacts_with,Thiothixene,VERIFIED,real_edge,FALSE,HALLUCINATION
+116,Oxazepam,interacts_with,Felbamate,VERIFIED,real_edge,TRUE,VERIFIED
+117,Promethazine,interacts_with,Chlorpheniramine,VERIFIED,real_edge,TRUE,VERIFIED
+118,Glycopyrronium,causes,Thiothixene,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+119,Felbamate,interacts_with,Telithromycin,VERIFIED,real_edge,FALSE,HALLUCINATION
+120,Gilteritinib,treats,Cancer,VERIFIED,real_edge,TRUE,VERIFIED
+121,Triazolam,interacts_with,Etacrynic acid,VERIFIED,real_edge,FALSE,HALLUCINATION
+122,Gastric_Disorders,interacts_with,Drospirenone,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+123,Cough,treats,Exenatide,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+124,Stiripentol,treats,Constipation,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+125,Ferric maltol,treats,Exenatide,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+126,Metyrosine,causes,Sedation,VERIFIED,real_edge,TRUE,VERIFIED
+127,Meclofenamic acid,interacts_with,Cefprozil,VERIFIED,real_edge,FALSE,HALLUCINATION
+128,Phenylbutazone,interacts_with,Diflunisal,VERIFIED,real_edge,TRUE,VERIFIED
+129,Hydrocodone,causes,Bisacodyl,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+130,Oxaprozin,interacts_with,Exenatide,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+131,Acetylsalicylic acid,interacts_with,Melphalan,VERIFIED,real_edge,FALSE,HALLUCINATION
+132,Cyclobenzaprine,interacts_with,Azathioprine,VERIFIED,real_edge,FALSE,HALLUCINATION
+133,Ranitidine,interacts_with,Cefuroxime,VERIFIED,real_edge,FALSE,HALLUCINATION
+134,Eletriptan,interacts_with,Oxaprozin,VERIFIED,real_edge,TRUE,VERIFIED
+135,Misoprostol,causes,Hypotension,VERIFIED,real_edge,TRUE,VERIFIED
+136,Hypertension,treats,Bleeding,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+137,Zonisamide,causes,Carcinogenicity,VERIFIED,real_edge,FALSE,HALLUCINATION
+138,Cancer,treats,Stroke,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+139,Dipyridamole,treats,Cardiac_Conditions,VERIFIED,real_edge,TRUE,VERIFIED
+140,Flupentixol,treats,Hypotension,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+141,Metreleptin,causes,Hyperglycemia,HALLUCINATION,domain_violation,TRUE,VERIFIED
+142,Dimenhydrinate,causes,Valoctocogene roxaparvovec,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+143,Liotrix,interacts_with,Vildagliptin,VERIFIED,real_edge,FALSE,HALLUCINATION
+144,Stiripentol,treats,Potassium bicarbonate,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+145,Zonisamide,causes,Enoxaparin,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+146,Chlorpheniramine,treats,COPD,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+147,Rifabutin,interacts_with,Ifosfamide,VERIFIED,real_edge,FALSE,HALLUCINATION
+148,Oxaprozin,interacts_with,Ganciclovir,VERIFIED,real_edge,FALSE,HALLUCINATION
+149,Acetylsalicylic acid,treats,Mercaptopurine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+150,Trifluoperazine,causes,Chlorpheniramine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+151,Ranitidine,interacts_with,Sulodexide,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+152,Oxaprozin,interacts_with,Eslicarbazepine acetate,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+153,Methotrimeprazine,treats,Psychosis,VERIFIED,real_edge,TRUE,VERIFIED
+154,Oxaprozin,interacts_with,Enoxaparin,VERIFIED,real_edge,FALSE,HALLUCINATION
+155,Phenylbutazone,treats,Promethazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+156,Acetylsalicylic acid,causes,Enoxaparin,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+157,Amantadine,interacts_with,Promethazine,VERIFIED,real_edge,TRUE,VERIFIED
+158,Promethazine,interacts_with,Letermovir,VERIFIED,real_edge,FALSE,HALLUCINATION
+159,Eletriptan,interacts_with,Stiripentol,VERIFIED,real_edge,FALSE,HALLUCINATION
+160,Fludeoxyglucose (18F),interacts_with,Bacterial_Infection,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+161,Thiothixene,causes,Deutetrabenazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+162,Metreleptin,interacts_with,COPD,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+163,Etacrynic acid,causes,Plantago seed,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+164,Azathioprine,interacts_with,Levofloxacin,VERIFIED,real_edge,FALSE,HALLUCINATION
+165,Mercaptopurine,causes,Enoxaparin,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+166,Hypertension,interacts_with,Carcinogenicity,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+167,Ondansetron,interacts_with,Famotidine,VERIFIED,real_edge,FALSE,HALLUCINATION
+168,Drospirenone,treats,Chlorpheniramine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+169,Alfacalcidol,interacts_with,Chlorhexidine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+170,Tiagabine,interacts_with,Cariprazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+171,Alfacalcidol,causes,Myocardial_Infarction,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+172,Schizophrenia,interacts_with,Chlorpheniramine,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+173,Ifosfamide,causes,Arthritis,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+174,Dipyridamole,causes,Dronedarone,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+175,Periciazine,causes,Ifosfamide,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+176,Methotrimeprazine,interacts_with,Periciazine,VERIFIED,real_edge,TRUE,VERIFIED
+177,Cefprozil,causes,Diarrhea,VERIFIED,real_edge,TRUE,VERIFIED
+178,Methyldopa,interacts_with,Dipyridamole,VERIFIED,real_edge,FALSE,HALLUCINATION
+179,Amantadine,interacts_with,Potassium bicarbonate,VERIFIED,real_edge,TRUE,VERIFIED
+180,Eletriptan,interacts_with,Hydrocodone,VERIFIED,real_edge,FALSE,HALLUCINATION
+181,Amantadine,causes,Stiripentol,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+182,Meclofenamic acid,causes,Iloprost,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+183,Sirolimus,interacts_with,Oxaprozin,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+184,Meclofenamic acid,interacts_with,Drospirenone,VERIFIED,real_edge,TRUE,VERIFIED
+185,Felbamate,causes,Rheumatoid_Arthritis,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+186,Viral_Infection,interacts_with,Canakinumab,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+187,Cyclobenzaprine,treats,Acepromazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+188,Telithromycin,treats,Letermovir,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+189,Romidepsin,interacts_with,Lymphoma,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+190,Urokinase,treats,Hypothyroidism,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+191,Trifluoperazine,interacts_with,Lomefloxacin,VERIFIED,real_edge,FALSE,HALLUCINATION
+192,Cortisone acetate,interacts_with,Erdafitinib,VERIFIED,real_edge,FALSE,HALLUCINATION
+193,Lomefloxacin,interacts_with,Gastric_Disorders,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+194,Triazolam,causes,Glycopyrronium,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+195,Ferric maltol,treats,Infection,HALLUCINATION,domain_violation,TRUE,VERIFIED
+196,Oxazepam,interacts_with,Glycopyrronium,VERIFIED,real_edge,FALSE,HALLUCINATION
+197,Melphalan,interacts_with,Canakinumab,VERIFIED,real_edge,FALSE,HALLUCINATION
+198,Headache,causes,Deutetrabenazine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+199,Mesoridazine,treats,Ketoconazole,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+200,Diarrhea,interacts_with,Letermovir,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+201,Vomiting,treats,Cefprozil,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+202,Alfacalcidol,causes,Hypertension,VERIFIED,real_edge,TRUE,VERIFIED
+203,Leukemia,treats,Zinc,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+204,Sulodexide,interacts_with,Drowsiness,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+205,Mesoridazine,interacts_with,Everolimus,VERIFIED,real_edge,FALSE,HALLUCINATION
+206,Dimenhydrinate,causes,Acepromazine,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+207,Eletriptan,interacts_with,Telithromycin,VERIFIED,real_edge,FALSE,HALLUCINATION
+208,Cyclobenzaprine,interacts_with,Dimenhydrinate,VERIFIED,real_edge,TRUE,VERIFIED
+209,Urokinase,interacts_with,Vildagliptin,VERIFIED,real_edge,FALSE,HALLUCINATION
+210,Hydroxyurea,causes,Sedation,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+211,Phenylbutazone,causes,Sedation,HALLUCINATION,domain_violation,TRUE,VERIFIED
+212,Erdafitinib,treats,Cancer,VERIFIED,real_edge,TRUE,VERIFIED
+213,Melphalan,interacts_with,Lubiprostone,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+214,Leukemia,treats,Depression,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+215,Ranitidine,interacts_with,Iloprost,VERIFIED,real_edge,FALSE,HALLUCINATION
+216,Ketotifen,interacts_with,Vildagliptin,VERIFIED,real_edge,FALSE,HALLUCINATION
+217,Cyclobenzaprine,interacts_with,Hydrocodone,VERIFIED,real_edge,FALSE,HALLUCINATION
+218,Cefprozil,treats,Deutetrabenazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+219,Cyclobenzaprine,interacts_with,Acepromazine,VERIFIED,real_edge,TRUE,VERIFIED
+220,Etacrynic acid,interacts_with,Stiripentol,VERIFIED,real_edge,FALSE,HALLUCINATION
+221,Zinc,interacts_with,Dimenhydrinate,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+222,Glycopyrronium,interacts_with,Angina,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+223,Diflunisal,causes,Dronedarone,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+224,Oxazepam,treats,Drospirenone,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+225,Phenylbutazone,causes,Inflammation,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+226,Melphalan,causes,Dronedarone,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+227,Topotecan,treats,Drospirenone,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+228,Deutetrabenazine,causes,Vomiting,VERIFIED,real_edge,TRUE,VERIFIED
+229,Ranitidine,causes,Famotidine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+230,Zonisamide,treats,Zuclopenthixol,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+231,Diabetes,interacts_with,Ganciclovir,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+232,Tiagabine,causes,Cardiac_Conditions,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+233,Cyclobenzaprine,interacts_with,Dronedarone,VERIFIED,real_edge,TRUE,VERIFIED
+234,Trifluoperazine,causes,Buprenorphine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+235,Azathioprine,treats,Thiothixene,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+236,Levofloxacin,causes,Ifosfamide,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+237,Cough,causes,Fever,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+238,Acepromazine,treats,Pain,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+239,Myocardial_Infarction,interacts_with,Arthritis,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+240,Lomefloxacin,interacts_with,Zinc,VERIFIED,real_edge,FALSE,HALLUCINATION
+241,Romidepsin,treats,Oxaprozin,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+242,Oxazepam,interacts_with,Potassium bicarbonate,VERIFIED,real_edge,FALSE,HALLUCINATION
+243,Tiagabine,causes,Methotrimeprazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+244,Glycopyrronium,interacts_with,Prazepam,VERIFIED,real_edge,FALSE,HALLUCINATION
+245,Liotrix,treats,Drospirenone,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+246,Dimenhydrinate,interacts_with,Cariprazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+247,Oxaprozin,causes,Ifosfamide,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+248,Perphenazine,interacts_with,Cariprazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+249,Telithromycin,causes,Prazepam,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+250,Ganciclovir,interacts_with,Methotrimeprazine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+251,Iron,causes,Ototoxicity,HALLUCINATION,domain_violation,TRUE,VERIFIED
+252,Gilteritinib,treats,Cefprozil,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+253,Oxaprozin,interacts_with,Sulodexide,VERIFIED,real_edge,TRUE,VERIFIED
+254,Zonisamide,interacts_with,Periciazine,VERIFIED,real_edge,TRUE,VERIFIED
+255,Acetylsalicylic acid,causes,Promethazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+256,Telmisartan,interacts_with,Valoctocogene roxaparvovec,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+257,Dimenhydrinate,interacts_with,Ketoconazole,VERIFIED,real_edge,TRUE,VERIFIED
+258,Metyrosine,interacts_with,Diflunisal,VERIFIED,real_edge,FALSE,HALLUCINATION
+259,Arthritis,interacts_with,Headache,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+260,Perphenazine,interacts_with,Felbamate,VERIFIED,real_edge,TRUE,VERIFIED
+261,Zuclopenthixol,causes,Hypotension,VERIFIED,real_edge,TRUE,VERIFIED
+262,Hydroxyurea,causes,Telmisartan,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+263,Topotecan,interacts_with,Cefuroxime,VERIFIED,real_edge,FALSE,HALLUCINATION
+264,Felbamate,interacts_with,Acepromazine,VERIFIED,real_edge,TRUE,VERIFIED
+265,Teratogenicity,causes,Cough,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+266,Glycopyrronium,treats,Asthma,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+267,Arthritis,interacts_with,Infection,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+268,Drospirenone,treats,Ulcer,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+269,Zuclopenthixol,interacts_with,Schizophrenia,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+270,Bisacodyl,causes,Fludeoxyglucose (18F),HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+271,Diflunisal,treats,Exenatide,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+272,Acetylsalicylic acid,treats,Telmisartan,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+273,Migraine,causes,Infection,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+274,Etacrynic acid,interacts_with,Cyclobenzaprine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+275,Heart_Failure,interacts_with,Mesoridazine,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+276,Phenylbutazone,treats,Inflammation,VERIFIED,real_edge,TRUE,VERIFIED
+277,Cardiac_Conditions,causes,Buprenorphine,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+278,Urokinase,interacts_with,Sulodexide,VERIFIED,real_edge,TRUE,VERIFIED
+279,Fludeoxyglucose (18F),interacts_with,Vomiting,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+280,Ranitidine,interacts_with,Cefprozil,VERIFIED,real_edge,FALSE,HALLUCINATION
+281,Ondansetron,interacts_with,Phenprocoumon,VERIFIED,real_edge,FALSE,HALLUCINATION
+282,Phenylbutazone,interacts_with,Cariprazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+283,Dipyridamole,treats,Cefprozil,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+284,Oxaprozin,causes,Hepatotoxicity,HALLUCINATION,domain_violation,TRUE,VERIFIED
+285,Phenylbutazone,causes,Bleeding,HALLUCINATION,domain_violation,TRUE,VERIFIED
+286,Ranitidine,interacts_with,Gilteritinib,VERIFIED,real_edge,FALSE,HALLUCINATION
+287,Trifluoperazine,treats,Acepromazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+288,Thiothixene,interacts_with,Dronedarone,VERIFIED,real_edge,TRUE,VERIFIED
+289,Everolimus,interacts_with,Amoxicillin,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+290,Metyrosine,treats,Thiothixene,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+291,Glycopyrronium,treats,Constipation,HALLUCINATION,domain_violation,TRUE,VERIFIED
+292,Ferric maltol,causes,Ganciclovir,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+293,Ranitidine,interacts_with,Triazolam,VERIFIED,real_edge,FALSE,HALLUCINATION
+294,Canakinumab,treats,Arthritis,VERIFIED,real_edge,FALSE,HALLUCINATION
+295,Promethazine,treats,Schizophrenia,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+296,Rifabutin,treats,Bacterial_Infection,VERIFIED,real_edge,TRUE,VERIFIED
+297,Topotecan,interacts_with,Cariprazine,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+298,Procarbazine,interacts_with,Exenatide,VERIFIED,real_edge,FALSE,HALLUCINATION
+299,Hypotension,causes,Diarrhea,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+300,Urokinase,interacts_with,Mercaptopurine,VERIFIED,real_edge,TRUE,VERIFIED
+301,Famotidine,interacts_with,Bisacodyl,VERIFIED,real_edge,FALSE,HALLUCINATION
+302,Valoctocogene roxaparvovec,causes,Lubiprostone,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+303,Cloxacillin,interacts_with,Metreleptin,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+304,Cyclobenzaprine,treats,Nephrotoxicity,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+305,Rifabutin,interacts_with,Romidepsin,VERIFIED,real_edge,FALSE,HALLUCINATION
+306,Midodrine,treats,Oxaprozin,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+307,Trifluoperazine,interacts_with,Cyclobenzaprine,VERIFIED,real_edge,FALSE,HALLUCINATION
+308,Hydroxyurea,treats,Pain,VERIFIED,real_edge,FALSE,HALLUCINATION
+309,Lepirudin,causes,Letermovir,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+310,Oxaprozin,treats,Rheumatoid_Arthritis,VERIFIED,real_edge,TRUE,VERIFIED
+311,Stroke,interacts_with,Romidepsin,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+312,Diflunisal,causes,Potassium bicarbonate,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+313,Alfacalcidol,treats,Vomiting,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+314,Felbamate,causes,Etacrynic acid,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+315,Zuclopenthixol,treats,Psychosis,VERIFIED,real_edge,TRUE,VERIFIED
+316,Erdafitinib,causes,Dipyridamole,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+317,Meclofenamic acid,interacts_with,Iloprost,VERIFIED,real_edge,TRUE,VERIFIED
+318,Seizure,treats,Nephrotoxicity,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+319,Lubiprostone,treats,Cancer,VERIFIED,real_edge,FALSE,HALLUCINATION
+320,Carcinogenicity,interacts_with,Gastric_Disorders,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+321,Cefprozil,causes,Procarbazine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+322,Ganciclovir,interacts_with,Dronedarone,VERIFIED,real_edge,TRUE,VERIFIED
+323,Dimenhydrinate,interacts_with,Methotrimeprazine,VERIFIED,real_edge,TRUE,VERIFIED
+324,Thiothixene,causes,Drowsiness,VERIFIED,real_edge,TRUE,VERIFIED
+325,Acetylsalicylic acid,interacts_with,Everolimus,VERIFIED,real_edge,TRUE,VERIFIED
+326,Depression,causes,Sulodexide,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+327,Zonisamide,treats,Seizure,VERIFIED,real_edge,TRUE,VERIFIED
+328,Everolimus,treats,Infection,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+329,Rifampicin,interacts_with,Everolimus,VERIFIED,real_edge,TRUE,VERIFIED
+330,Glycopyrronium,interacts_with,Gastric_Disorders,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+331,Exenatide,treats,Methotrimeprazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+332,Ketotifen,treats,Alfacalcidol,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+333,Acetylsalicylic acid,interacts_with,Lubiprostone,VERIFIED,real_edge,FALSE,HALLUCINATION
+334,Hydroxyurea,causes,Enoxaparin,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+335,Misoprostol,treats,Gastric_Disorders,VERIFIED,real_edge,FALSE,HALLUCINATION
+336,Mesoridazine,causes,Phenprocoumon,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+337,Triazolam,interacts_with,Telithromycin,VERIFIED,real_edge,FALSE,HALLUCINATION
+338,Canakinumab,causes,Erdafitinib,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+339,Phenylbutazone,treats,Seizure,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+340,Exenatide,interacts_with,Vildagliptin,VERIFIED,real_edge,FALSE,HALLUCINATION
+341,Sirolimus,interacts_with,Rifampicin,VERIFIED,real_edge,TRUE,VERIFIED
+342,Cromoglicic acid,causes,Cefprozil,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+343,Eletriptan,interacts_with,Potassium bicarbonate,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+344,Phenprocoumon,causes,Bleeding,VERIFIED,real_edge,TRUE,VERIFIED
+345,Glycopyrronium,treats,Chlorpheniramine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+346,Melphalan,causes,Vomiting,VERIFIED,real_edge,TRUE,VERIFIED
+347,Sirolimus,interacts_with,Deutetrabenazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+348,Cardiac_Conditions,interacts_with,Arthritis,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+349,Triazolam,treats,Romidepsin,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+350,Telithromycin,interacts_with,Chlorpheniramine,VERIFIED,real_edge,FALSE,HALLUCINATION
+351,Canakinumab,treats,Rifabutin,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+352,Trifluoperazine,interacts_with,Prazepam,VERIFIED,real_edge,TRUE,VERIFIED
+353,Diabetes,causes,Tiagabine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+354,Heart_Failure,interacts_with,Diabetes,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+355,Ranitidine,interacts_with,Lomefloxacin,VERIFIED,real_edge,FALSE,HALLUCINATION
+356,Ulcer,causes,Zonisamide,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+357,Hypothyroidism,interacts_with,Cromoglicic acid,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+358,Methyldopa,interacts_with,Methotrimeprazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+359,Trifluoperazine,interacts_with,Acepromazine,VERIFIED,real_edge,TRUE,VERIFIED
+360,Pain,causes,Hypertension,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+361,Etacrynic acid,treats,Heart_Failure,VERIFIED,real_edge,FALSE,HALLUCINATION
+362,Eletriptan,interacts_with,Triazolam,VERIFIED,real_edge,FALSE,HALLUCINATION
+363,Metyrosine,interacts_with,Oxaprozin,VERIFIED,real_edge,FALSE,HALLUCINATION
+364,Phenprocoumon,interacts_with,Fexofenadine,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+365,Methotrimeprazine,interacts_with,Plantago seed,VERIFIED,real_edge,FALSE,HALLUCINATION
+366,Eslicarbazepine acetate,interacts_with,Diflunisal,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+367,Diflunisal,causes,Etacrynic acid,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+368,Asthma,causes,Hypothyroidism,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+369,Eletriptan,interacts_with,Perphenazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+370,Tumor,interacts_with,Sedation,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+371,Trifluoperazine,treats,Mesoridazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+372,Oxazepam,interacts_with,Zonisamide,VERIFIED,real_edge,TRUE,VERIFIED
+373,Methyldopa,interacts_with,Dronedarone,VERIFIED,real_edge,FALSE,HALLUCINATION
+374,Telithromycin,treats,Cortisone acetate,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+375,Ranitidine,interacts_with,Vomiting,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+376,Etacrynic acid,interacts_with,Oxaprozin,VERIFIED,real_edge,FALSE,HALLUCINATION
+377,Myocardial_Infarction,causes,Dizziness,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+378,Acetylsalicylic acid,interacts_with,Potassium bicarbonate,VERIFIED,real_edge,TRUE,VERIFIED
+379,Zinc,interacts_with,Hyperglycemia,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+380,Fludeoxyglucose (18F),treats,Cancer,VERIFIED,real_edge,FALSE,HALLUCINATION
+381,Seizure,causes,Viral_Infection,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+382,Chlorhexidine,interacts_with,Telithromycin,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+383,Diflunisal,interacts_with,Iloprost,VERIFIED,real_edge,TRUE,VERIFIED
+384,Meclofenamic acid,interacts_with,Azathioprine,VERIFIED,real_edge,TRUE,VERIFIED
+385,Ferric maltol,treats,Drowsiness,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+386,Lomefloxacin,interacts_with,Mercaptopurine,VERIFIED,real_edge,TRUE,VERIFIED
+387,Topotecan,interacts_with,Procarbazine,VERIFIED,real_edge,TRUE,VERIFIED
+388,Buprenorphine,causes,Drospirenone,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+389,Schizophrenia,treats,Iron,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+390,Diflunisal,causes,Vomiting,VERIFIED,real_edge,TRUE,VERIFIED
+391,Cancer,causes,Hypoglycemia,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+392,Vildagliptin,interacts_with,Hypoglycemia,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+393,Procarbazine,interacts_with,Eslicarbazepine acetate,VERIFIED,real_edge,FALSE,HALLUCINATION
+394,Lymphoma,causes,Tumor,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+395,Metyrosine,causes,Diflunisal,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+396,Zuclopenthixol,interacts_with,Ganciclovir,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+397,Procarbazine,treats,Cancer,VERIFIED,real_edge,TRUE,VERIFIED
+398,Lubiprostone,interacts_with,Methotrimeprazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+399,Ketoconazole,interacts_with,Prazepam,VERIFIED,real_edge,TRUE,VERIFIED
+400,Ranitidine,causes,Nausea,VERIFIED,real_edge,TRUE,VERIFIED
+401,Fungal_Infection,causes,Misoprostol,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+402,Telithromycin,interacts_with,Rifampicin,VERIFIED,real_edge,TRUE,VERIFIED
+403,Alfacalcidol,treats,Exenatide,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+404,Zuclopenthixol,interacts_with,Gilteritinib,VERIFIED,real_edge,TRUE,VERIFIED
+405,Fexofenadine,interacts_with,Amoxicillin,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+406,Trifluoperazine,interacts_with,Periciazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+407,Fludeoxyglucose (18F),interacts_with,Potassium bicarbonate,VERIFIED,real_edge,TRUE,VERIFIED
+408,Ifosfamide,interacts_with,Vomiting,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+409,Ranitidine,interacts_with,Levofloxacin,VERIFIED,real_edge,FALSE,HALLUCINATION
+410,Exenatide,interacts_with,Cortisone acetate,VERIFIED,real_edge,FALSE,HALLUCINATION
+411,Teratogenicity,treats,Sedation,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+412,Amoxicillin,causes,Dizziness,HALLUCINATION,domain_violation,TRUE,VERIFIED
+413,Etacrynic acid,interacts_with,Azathioprine,VERIFIED,real_edge,TRUE,VERIFIED
+414,Inflammation,treats,Glycopyrronium,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+415,Triazolam,causes,Metreleptin,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+416,Tiagabine,causes,Cyclobenzaprine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+417,Ondansetron,causes,Constipation,VERIFIED,real_edge,TRUE,VERIFIED
+418,Methyldopa,treats,Nausea,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+419,Midodrine,treats,Methyldopa,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+420,Headache,causes,Zonisamide,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+421,Angina,interacts_with,Hypothyroidism,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+422,Epilepsy,causes,Drospirenone,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+423,Ondansetron,interacts_with,Azathioprine,VERIFIED,real_edge,TRUE,VERIFIED
+424,Meclofenamic acid,interacts_with,Nephrotoxicity,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+425,Rifabutin,causes,Anxiety,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+426,Felbamate,interacts_with,Chlorpheniramine,VERIFIED,real_edge,TRUE,VERIFIED
+427,Flupentixol,causes,Amantadine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+428,Hydrocodone,causes,Bleeding,HALLUCINATION,domain_violation,TRUE,VERIFIED
+429,Buprenorphine,treats,Zuclopenthixol,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+430,Telithromycin,causes,Sedation,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+431,Buprenorphine,causes,Cortisone acetate,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+432,Carcinogenicity,interacts_with,Iron,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+433,Eletriptan,interacts_with,Everolimus,VERIFIED,real_edge,FALSE,HALLUCINATION
+434,Telmisartan,causes,Deutetrabenazine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+435,Vomiting,interacts_with,Felbamate,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+436,Lepirudin,treats,Midodrine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+437,Ketoconazole,interacts_with,Drospirenone,VERIFIED,real_edge,TRUE,VERIFIED
+438,Rifampicin,causes,Chlorpheniramine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+439,Cyclobenzaprine,causes,Chlorpheniramine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+440,Felbamate,interacts_with,Rifampicin,VERIFIED,real_edge,TRUE,VERIFIED
+441,Flupentixol,interacts_with,Methotrimeprazine,VERIFIED,real_edge,TRUE,VERIFIED
+442,Oxazepam,causes,Oxaprozin,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+443,Buprenorphine,interacts_with,Depression,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+444,Telmisartan,interacts_with,Iron,HALLUCINATION,domain_violation,TRUE,VERIFIED
+445,Dizziness,causes,Etacrynic acid,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+446,Ferric maltol,treats,Diarrhea,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+447,Erdafitinib,treats,Fever,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+448,Buprenorphine,interacts_with,Amoxicillin,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+449,Iron,causes,Hyperthyroidism,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+450,Prazepam,causes,Metreleptin,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+451,Migraine,treats,Liotrix,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+452,Oxazepam,treats,Triazolam,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+453,Phenprocoumon,causes,Promethazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+454,Nephrotoxicity,treats,Heart_Failure,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+455,Trifluoperazine,causes,Meclofenamic acid,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+456,Rifabutin,interacts_with,Telithromycin,VERIFIED,real_edge,TRUE,VERIFIED
+457,Phenylbutazone,causes,Deutetrabenazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+458,Metreleptin,causes,Carcinogenicity,VERIFIED,real_edge,FALSE,HALLUCINATION
+459,Diflunisal,treats,Liotrix,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+460,Thiothixene,interacts_with,Cariprazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+461,Hypothyroidism,interacts_with,Rifampicin,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+462,Azathioprine,causes,Vildagliptin,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+463,Methotrimeprazine,interacts_with,Schizophrenia,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+464,Diflunisal,interacts_with,Ranitidine,VERIFIED,real_edge,FALSE,HALLUCINATION
+465,Stroke,interacts_with,Hyperglycemia,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+466,Telithromycin,interacts_with,Promethazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+467,Ondansetron,interacts_with,Eslicarbazepine acetate,VERIFIED,real_edge,TRUE,VERIFIED
+468,Sirolimus,interacts_with,Enoxaparin,VERIFIED,real_edge,TRUE,VERIFIED
+469,Carcinogenicity,treats,Bisacodyl,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+470,Hydroxyurea,causes,Gilteritinib,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+471,Plantago seed,interacts_with,Depression,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+472,Triazolam,interacts_with,Azathioprine,VERIFIED,real_edge,TRUE,VERIFIED
+473,Misoprostol,treats,Diarrhea,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+474,Thrombosis,causes,Diflunisal,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+475,Metyrosine,treats,Dipyridamole,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+476,Cardiac_Conditions,interacts_with,Drospirenone,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+477,Amoxicillin,interacts_with,Iron,HALLUCINATION,domain_violation,TRUE,VERIFIED
+478,Trifluoperazine,treats,Ondansetron,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+479,Rifabutin,interacts_with,Promethazine,VERIFIED,real_edge,TRUE,VERIFIED
+480,Telmisartan,treats,Thyroid_Disorders,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+481,Felbamate,interacts_with,Glycopyrronium,VERIFIED,real_edge,FALSE,HALLUCINATION
+482,Hydrocodone,interacts_with,Fexofenadine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+483,Chlorpheniramine,interacts_with,Everolimus,VERIFIED,real_edge,FALSE,HALLUCINATION
+484,Dipyridamole,interacts_with,Liotrix,VERIFIED,real_edge,TRUE,VERIFIED
+485,Fungal_Infection,treats,Nephrotoxicity,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+486,Cefuroxime,interacts_with,Nausea,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+487,Alfacalcidol,treats,Hypotension,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+488,Phenylbutazone,interacts_with,Periciazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+489,Dipyridamole,treats,Romidepsin,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+490,Hydroxyurea,interacts_with,Enoxaparin,VERIFIED,real_edge,TRUE,VERIFIED
+491,Ranitidine,interacts_with,Promethazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+492,Valoctocogene roxaparvovec,treats,Zinc,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+493,Cefprozil,treats,Cloxacillin,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+494,Hepatotoxicity,treats,Ulcer,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+495,Amantadine,interacts_with,Famotidine,VERIFIED,real_edge,FALSE,HALLUCINATION
+496,Thiothixene,treats,Psychosis,VERIFIED,real_edge,TRUE,VERIFIED
+497,Inflammation,treats,Deutetrabenazine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+498,Cromoglicic acid,causes,Teratogenicity,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+499,Sirolimus,interacts_with,Procarbazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+500,Amantadine,interacts_with,Glycopyrronium,VERIFIED,real_edge,FALSE,HALLUCINATION
+501,Telithromycin,interacts_with,Cariprazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+502,Schizophrenia,treats,Sulodexide,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+503,Thyroid_Disorders,treats,Cough,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+504,Lubiprostone,causes,Vomiting,VERIFIED,real_edge,FALSE,HALLUCINATION
+505,Meclofenamic acid,interacts_with,Methotrimeprazine,VERIFIED,real_edge,TRUE,VERIFIED
+506,Methotrimeprazine,interacts_with,Eslicarbazepine acetate,VERIFIED,real_edge,TRUE,VERIFIED
+507,Glycopyrronium,treats,Hypertension,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+508,Dipyridamole,causes,Ketoconazole,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+509,Perphenazine,interacts_with,Famotidine,VERIFIED,real_edge,FALSE,HALLUCINATION
+510,Ranitidine,interacts_with,Letermovir,VERIFIED,real_edge,FALSE,HALLUCINATION
+511,Arthritis,treats,Zinc,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+512,Glycopyrronium,interacts_with,Periciazine,VERIFIED,real_edge,TRUE,VERIFIED
+513,Perphenazine,treats,Nausea,VERIFIED,real_edge,FALSE,HALLUCINATION
+514,Diflunisal,interacts_with,Zonisamide,VERIFIED,real_edge,TRUE,VERIFIED
+515,Urokinase,treats,Dipyridamole,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+516,Meclofenamic acid,interacts_with,Topotecan,VERIFIED,real_edge,FALSE,HALLUCINATION
+517,Ranitidine,interacts_with,Methyldopa,VERIFIED,real_edge,FALSE,HALLUCINATION
+518,Lomefloxacin,interacts_with,Dimenhydrinate,VERIFIED,real_edge,FALSE,HALLUCINATION
+519,Fexofenadine,interacts_with,Letermovir,VERIFIED,real_edge,FALSE,HALLUCINATION
+520,Azathioprine,interacts_with,Arthritis,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+521,Rifampicin,causes,Thyroid_Disorders,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+522,Telmisartan,treats,Famotidine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+523,Eletriptan,causes,Ketoconazole,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+524,Ulcer,causes,Dimenhydrinate,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+525,Viral_Infection,treats,Stiripentol,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+526,Mesoridazine,interacts_with,Glycopyrronium,VERIFIED,real_edge,FALSE,HALLUCINATION
+527,Zonisamide,causes,Stiripentol,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+528,Iron,interacts_with,Nausea,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+529,Ondansetron,causes,Hypotension,VERIFIED,real_edge,TRUE,VERIFIED
+530,Amantadine,causes,Periciazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+531,Trifluoperazine,treats,Methyldopa,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+532,Mercaptopurine,causes,Vomiting,VERIFIED,real_edge,TRUE,VERIFIED
+533,Rifampicin,interacts_with,Drospirenone,VERIFIED,real_edge,TRUE,VERIFIED
+534,Promethazine,treats,Asthma,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+535,Cariprazine,treats,Depression,VERIFIED,real_edge,TRUE,VERIFIED
+536,Potassium bicarbonate,treats,Deutetrabenazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+537,Cefprozil,treats,Potassium bicarbonate,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+538,Promethazine,causes,Prazepam,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+539,Glycopyrronium,interacts_with,Plantago seed,VERIFIED,real_edge,FALSE,HALLUCINATION
+540,Dipyridamole,interacts_with,Mercaptopurine,VERIFIED,real_edge,FALSE,HALLUCINATION
+541,Everolimus,interacts_with,Dronedarone,VERIFIED,real_edge,TRUE,VERIFIED
+542,Migraine,causes,Thiothixene,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+543,Ranitidine,treats,Procarbazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+544,Ranitidine,interacts_with,Amantadine,VERIFIED,real_edge,FALSE,HALLUCINATION
+545,Cloxacillin,treats,Promethazine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+546,Fexofenadine,interacts_with,Liotrix,VERIFIED,real_edge,FALSE,HALLUCINATION
+547,Stiripentol,treats,Epilepsy,HALLUCINATION,domain_violation,TRUE,VERIFIED
+548,Trifluoperazine,causes,Acetylsalicylic acid,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+549,Sirolimus,treats,Liotrix,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+550,Hypothyroidism,causes,Mercaptopurine,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+551,Hyperthyroidism,treats,Ranitidine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+552,Tiagabine,causes,Topotecan,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+553,Acetylsalicylic acid,causes,Arthritis,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+554,Perphenazine,interacts_with,Eslicarbazepine acetate,VERIFIED,real_edge,FALSE,HALLUCINATION
+555,Acetylsalicylic acid,treats,Rheumatoid_Arthritis,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+556,Perphenazine,interacts_with,Dimenhydrinate,VERIFIED,real_edge,TRUE,VERIFIED
+557,Mesoridazine,causes,Periciazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+558,Rifabutin,interacts_with,Zuclopenthixol,VERIFIED,real_edge,FALSE,HALLUCINATION
+559,Depression,interacts_with,Chlorhexidine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+560,Ulcer,interacts_with,Fludeoxyglucose (18F),HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+561,Plantago seed,interacts_with,Iron,HALLUCINATION,domain_violation,TRUE,VERIFIED
+562,Depression,treats,Erdafitinib,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+563,Midodrine,treats,Cariprazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+564,Diflunisal,interacts_with,Levofloxacin,VERIFIED,real_edge,FALSE,HALLUCINATION
+565,Diflunisal,treats,Fludeoxyglucose (18F),HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+566,Ranitidine,treats,Ulcer,VERIFIED,real_edge,FALSE,HALLUCINATION
+567,Hydrocodone,interacts_with,Plantago seed,VERIFIED,real_edge,FALSE,HALLUCINATION
+568,Zonisamide,interacts_with,Cariprazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+569,Cloxacillin,interacts_with,Drospirenone,VERIFIED,real_edge,FALSE,HALLUCINATION
+570,Acetylsalicylic acid,interacts_with,Cariprazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+571,Drowsiness,treats,Dizziness,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+572,Fever,treats,Cough,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+573,Phenprocoumon,interacts_with,Vomiting,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+574,Thrombosis,treats,Headache,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+575,Felbamate,treats,Dronedarone,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+576,Letermovir,causes,Sulodexide,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+577,Phenylbutazone,interacts_with,Promethazine,VERIFIED,real_edge,TRUE,VERIFIED
+578,Midodrine,interacts_with,Zonisamide,VERIFIED,real_edge,TRUE,VERIFIED
+579,Amoxicillin,interacts_with,Drowsiness,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+580,Famotidine,interacts_with,Felbamate,VERIFIED,real_edge,TRUE,VERIFIED
+581,Hydrocodone,treats,Nephrotoxicity,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+582,Rifampicin,interacts_with,Valoctocogene roxaparvovec,VERIFIED,real_edge,TRUE,VERIFIED
+583,Diflunisal,treats,Cloxacillin,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+584,Urokinase,causes,Everolimus,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+585,Constipation,treats,Hyperthyroidism,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+586,Hypotension,treats,Perphenazine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+587,Ondansetron,treats,Dronedarone,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+588,Amantadine,interacts_with,Lubiprostone,VERIFIED,real_edge,FALSE,HALLUCINATION
+589,Oxazepam,interacts_with,Ketoconazole,VERIFIED,real_edge,TRUE,VERIFIED
+590,Triazolam,interacts_with,Tiagabine,VERIFIED,real_edge,FALSE,HALLUCINATION
+591,Lubiprostone,treats,Inflammation,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+592,Cortisone acetate,interacts_with,Dronedarone,VERIFIED,real_edge,TRUE,VERIFIED
+593,Triazolam,causes,Psychosis,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+594,Hypotension,causes,Phenylbutazone,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+595,Meclofenamic acid,interacts_with,Liotrix,VERIFIED,real_edge,FALSE,HALLUCINATION
+596,Ketotifen,treats,Asthma,VERIFIED,real_edge,TRUE,VERIFIED
+597,Viral_Infection,treats,Sirolimus,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+598,Amoxicillin,treats,Alfacalcidol,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+599,Phenprocoumon,interacts_with,Methotrimeprazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+600,Eslicarbazepine acetate,interacts_with,Letermovir,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+601,Lomefloxacin,interacts_with,Dronedarone,VERIFIED,real_edge,TRUE,VERIFIED
+602,Sirolimus,causes,Ifosfamide,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+603,Chlorpheniramine,causes,Drowsiness,HALLUCINATION,domain_violation,TRUE,VERIFIED
+604,Viral_Infection,treats,Eletriptan,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+605,Rifabutin,interacts_with,Everolimus,VERIFIED,real_edge,TRUE,VERIFIED
+606,Felbamate,treats,Sulodexide,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+607,Amantadine,treats,Potassium bicarbonate,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+608,Amantadine,interacts_with,Cefuroxime,VERIFIED,real_edge,FALSE,HALLUCINATION
+609,Mercaptopurine,interacts_with,Everolimus,VERIFIED,real_edge,TRUE,VERIFIED
+610,Acetylsalicylic acid,interacts_with,Procarbazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+611,Dizziness,treats,Prazepam,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+612,Cariprazine,treats,Thyroid_Disorders,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+613,Topotecan,interacts_with,Fludeoxyglucose (18F),VERIFIED,real_edge,FALSE,HALLUCINATION
+614,Etacrynic acid,interacts_with,Iloprost,VERIFIED,real_edge,TRUE,VERIFIED
+615,Sirolimus,treats,Melphalan,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+616,Oxaprozin,causes,Cariprazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+617,Famotidine,interacts_with,Zuclopenthixol,VERIFIED,real_edge,FALSE,HALLUCINATION
+618,Dipyridamole,causes,Hypotension,VERIFIED,real_edge,TRUE,VERIFIED
+619,Lubiprostone,interacts_with,Levofloxacin,VERIFIED,real_edge,FALSE,HALLUCINATION
+620,Nephrotoxicity,interacts_with,Valoctocogene roxaparvovec,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+621,Phenylbutazone,interacts_with,Gilteritinib,VERIFIED,real_edge,TRUE,VERIFIED
+622,Deutetrabenazine,treats,Ferric maltol,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+623,Cefuroxime,causes,Deutetrabenazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+624,Meclofenamic acid,causes,Hepatotoxicity,HALLUCINATION,domain_violation,TRUE,VERIFIED
+625,Ifosfamide,interacts_with,Canakinumab,VERIFIED,real_edge,TRUE,VERIFIED
+626,Meclofenamic acid,treats,Inflammation,VERIFIED,real_edge,TRUE,VERIFIED
+627,Iron,treats,Triazolam,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+628,Diflunisal,interacts_with,Letermovir,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+629,Ifosfamide,causes,Fludeoxyglucose (18F),HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+630,Methotrimeprazine,interacts_with,Cariprazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+631,Oxaprozin,treats,Hypertension,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+632,Phenprocoumon,interacts_with,Drospirenone,VERIFIED,real_edge,TRUE,VERIFIED
+633,Triazolam,causes,Chlorpheniramine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+634,Sirolimus,interacts_with,Triazolam,VERIFIED,real_edge,FALSE,HALLUCINATION
+635,Fungal_Infection,causes,Acetylsalicylic acid,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+636,Melphalan,treats,Diarrhea,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+637,Ferric maltol,causes,Deutetrabenazine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+638,Exenatide,interacts_with,Azathioprine,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+639,Ondansetron,interacts_with,Acetylsalicylic acid,VERIFIED,real_edge,FALSE,HALLUCINATION
+640,Letermovir,treats,Deutetrabenazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+641,Deutetrabenazine,causes,Dizziness,HALLUCINATION,domain_violation,TRUE,VERIFIED
+642,Dizziness,causes,Everolimus,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+643,Acetylsalicylic acid,interacts_with,Topotecan,VERIFIED,real_edge,FALSE,HALLUCINATION
+644,Teratogenicity,interacts_with,Arthritis,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+645,Topotecan,interacts_with,Ifosfamide,VERIFIED,real_edge,TRUE,VERIFIED
+646,Liotrix,treats,Rheumatoid_Arthritis,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+647,Eletriptan,treats,Amantadine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+648,Eslicarbazepine acetate,causes,Diarrhea,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+649,Lepirudin,interacts_with,Mesoridazine,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+650,Ranitidine,causes,Hydrocodone,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+651,Eletriptan,causes,Hypertension,VERIFIED,real_edge,TRUE,VERIFIED
+652,Cefprozil,interacts_with,Ifosfamide,VERIFIED,real_edge,FALSE,HALLUCINATION
+653,Triazolam,interacts_with,Buprenorphine,VERIFIED,real_edge,TRUE,VERIFIED
+654,Diflunisal,interacts_with,Ifosfamide,VERIFIED,real_edge,FALSE,HALLUCINATION
+655,Acetylsalicylic acid,treats,Drospirenone,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+656,Constipation,causes,Chlorhexidine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+657,Cariprazine,interacts_with,Psychosis,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+658,Famotidine,interacts_with,Chlorpheniramine,VERIFIED,real_edge,FALSE,HALLUCINATION
+659,Bisacodyl,interacts_with,Enoxaparin,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+660,Procarbazine,interacts_with,Cariprazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+661,Ketotifen,treats,Leukemia,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+662,Azathioprine,causes,Rifampicin,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+663,Flupentixol,interacts_with,Famotidine,VERIFIED,real_edge,FALSE,HALLUCINATION
+664,Diflunisal,interacts_with,Amantadine,VERIFIED,real_edge,FALSE,HALLUCINATION
+665,Sedation,interacts_with,Topotecan,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+666,Trifluoperazine,interacts_with,Famotidine,VERIFIED,real_edge,FALSE,HALLUCINATION
+667,Ranitidine,interacts_with,Ifosfamide,VERIFIED,real_edge,FALSE,HALLUCINATION
+668,Flupentixol,interacts_with,Triazolam,VERIFIED,real_edge,FALSE,HALLUCINATION
+669,Zonisamide,causes,Hypotension,VERIFIED,real_edge,TRUE,VERIFIED
+670,Oxazepam,causes,Methyldopa,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+671,Phenylbutazone,interacts_with,Zuclopenthixol,VERIFIED,real_edge,FALSE,HALLUCINATION
+672,Diflunisal,causes,Bleeding,VERIFIED,real_edge,TRUE,VERIFIED
+673,Eslicarbazepine acetate,treats,Seizure,VERIFIED,real_edge,TRUE,VERIFIED
+674,Prazepam,treats,Fungal_Infection,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+675,Cyclobenzaprine,interacts_with,Rifampicin,VERIFIED,real_edge,TRUE,VERIFIED
+676,Metyrosine,causes,Ondansetron,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+677,Flupentixol,interacts_with,Lubiprostone,VERIFIED,real_edge,FALSE,HALLUCINATION
+678,Perphenazine,interacts_with,Ondansetron,VERIFIED,real_edge,FALSE,HALLUCINATION
+679,Fexofenadine,interacts_with,Everolimus,VERIFIED,real_edge,FALSE,HALLUCINATION
+680,Phenylbutazone,interacts_with,Cefuroxime,VERIFIED,real_edge,FALSE,HALLUCINATION
+681,Erdafitinib,treats,Melphalan,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+682,Zonisamide,interacts_with,Acepromazine,VERIFIED,real_edge,TRUE,VERIFIED
+683,Telmisartan,causes,Sedation,HALLUCINATION,domain_violation,TRUE,VERIFIED
+684,Cariprazine,causes,Erdafitinib,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+685,Acetylsalicylic acid,treats,Cancer,VERIFIED,real_edge,FALSE,HALLUCINATION
+686,Ferric maltol,treats,Procarbazine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+687,Telithromycin,interacts_with,Prazepam,VERIFIED,real_edge,FALSE,HALLUCINATION
+688,Flupentixol,interacts_with,Hydrocodone,VERIFIED,real_edge,FALSE,HALLUCINATION
+689,Oxazepam,interacts_with,Mercaptopurine,VERIFIED,real_edge,TRUE,VERIFIED
+690,Buprenorphine,causes,Prazepam,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+691,Thrombosis,causes,Prazepam,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+692,Glycopyrronium,interacts_with,Fexofenadine,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+693,Vomiting,interacts_with,Misoprostol,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+694,Sulodexide,treats,Inflammation,VERIFIED,real_edge,TRUE,VERIFIED
+695,Eletriptan,interacts_with,Letermovir,VERIFIED,real_edge,FALSE,HALLUCINATION
+696,Acetylsalicylic acid,interacts_with,Methyldopa,VERIFIED,real_edge,FALSE,HALLUCINATION
+697,Bacterial_Infection,interacts_with,Mercaptopurine,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+698,Mercaptopurine,interacts_with,Cortisone acetate,VERIFIED,real_edge,FALSE,HALLUCINATION
+699,Dizziness,causes,Fever,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+700,Everolimus,causes,Bleeding,HALLUCINATION,domain_violation,TRUE,VERIFIED
+701,Cancer,causes,Hyperthyroidism,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+702,Fexofenadine,interacts_with,Ganciclovir,VERIFIED,real_edge,FALSE,HALLUCINATION
+703,Oxaprozin,interacts_with,Hydrocodone,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+704,Azathioprine,interacts_with,Stiripentol,VERIFIED,real_edge,FALSE,HALLUCINATION
+705,Hypotension,causes,Famotidine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+706,Canakinumab,treats,Stiripentol,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+707,Amantadine,treats,Oxaprozin,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+708,Enoxaparin,treats,Amoxicillin,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+709,Flupentixol,interacts_with,Eslicarbazepine acetate,VERIFIED,real_edge,TRUE,VERIFIED
+710,Acetylsalicylic acid,causes,Cyclobenzaprine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+711,Hypertension,treats,Ototoxicity,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+712,Thrombosis,interacts_with,Periciazine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+713,Iloprost,causes,Depression,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+714,Promethazine,interacts_with,Bisacodyl,VERIFIED,real_edge,TRUE,VERIFIED
+715,Gastric_Disorders,treats,Romidepsin,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+716,Telmisartan,treats,Hypertension,VERIFIED,real_edge,TRUE,VERIFIED
+717,Zonisamide,interacts_with,Stiripentol,VERIFIED,real_edge,TRUE,VERIFIED
+718,Chlorpheniramine,causes,Zuclopenthixol,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+719,Amoxicillin,interacts_with,Drospirenone,VERIFIED,real_edge,TRUE,VERIFIED
+720,Telmisartan,interacts_with,Ondansetron,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+721,Trifluoperazine,causes,Methotrimeprazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+722,Phenylbutazone,interacts_with,Romidepsin,VERIFIED,real_edge,FALSE,HALLUCINATION
+723,Bacterial_Infection,treats,Pain,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+724,Sulodexide,interacts_with,Hydrocodone,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+725,Iron,interacts_with,Gilteritinib,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+726,Ondansetron,treats,Dimenhydrinate,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+727,Metyrosine,interacts_with,Methotrimeprazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+728,Rifampicin,interacts_with,Letermovir,VERIFIED,real_edge,TRUE,VERIFIED
+729,Romidepsin,causes,Vomiting,VERIFIED,real_edge,TRUE,VERIFIED
+730,Cancer,interacts_with,Ganciclovir,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+731,Eslicarbazepine acetate,treats,Bleeding,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+732,Fever,interacts_with,Melphalan,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+733,Acetylsalicylic acid,causes,Stroke,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+734,Glycopyrronium,interacts_with,Cromoglicic acid,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+735,Triazolam,treats,Cariprazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+736,Ulcer,interacts_with,Ferric maltol,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+737,Romidepsin,treats,Gilteritinib,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+738,Ondansetron,interacts_with,Telithromycin,VERIFIED,real_edge,FALSE,HALLUCINATION
+739,Mesoridazine,treats,Felbamate,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+740,Phenylbutazone,treats,Telmisartan,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+741,Meclofenamic acid,causes,Lomefloxacin,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+742,Cyclobenzaprine,interacts_with,Zuclopenthixol,VERIFIED,real_edge,FALSE,HALLUCINATION
+743,Famotidine,causes,Acetylsalicylic acid,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+744,Zinc,treats,Promethazine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+745,Drospirenone,treats,Prazepam,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+746,Hydrocodone,interacts_with,Romidepsin,VERIFIED,real_edge,FALSE,HALLUCINATION
+747,Mercaptopurine,treats,Rheumatoid_Arthritis,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+748,Cancer,interacts_with,Amantadine,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+749,Ganciclovir,interacts_with,Chlorpheniramine,VERIFIED,real_edge,FALSE,HALLUCINATION
+750,Lymphoma,causes,Sulodexide,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+751,Everolimus,treats,Gilteritinib,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+752,Zinc,treats,Thiothixene,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+753,Ondansetron,causes,Metreleptin,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+754,Oxazepam,interacts_with,Cefprozil,VERIFIED,real_edge,FALSE,HALLUCINATION
+755,Ranitidine,treats,Leukemia,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+756,Zonisamide,treats,Sulodexide,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+757,Cancer,causes,Zonisamide,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+758,Diflunisal,treats,Cyclobenzaprine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+759,Zonisamide,causes,Meclofenamic acid,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+760,Seizure,causes,Lymphoma,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+761,Arthritis,causes,Chlorpheniramine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+762,Phenprocoumon,treats,Exenatide,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+763,Ondansetron,causes,Glycopyrronium,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+764,Ganciclovir,interacts_with,Mercaptopurine,VERIFIED,real_edge,TRUE,VERIFIED
+765,Etacrynic acid,interacts_with,Acetylsalicylic acid,VERIFIED,real_edge,TRUE,VERIFIED
+766,Buprenorphine,treats,Asthma,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+767,Amantadine,interacts_with,Amoxicillin,VERIFIED,real_edge,FALSE,HALLUCINATION
+768,Sirolimus,interacts_with,Ifosfamide,VERIFIED,real_edge,TRUE,VERIFIED
+769,Topotecan,causes,Canakinumab,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+770,Lubiprostone,interacts_with,Ototoxicity,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+771,Famotidine,interacts_with,Letermovir,VERIFIED,real_edge,FALSE,HALLUCINATION
+772,Amoxicillin,interacts_with,Chlorhexidine,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+773,Dronedarone,causes,Hyperthyroidism,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+774,Felbamate,interacts_with,Cefprozil,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+775,Felbamate,causes,Thiothixene,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+776,Drospirenone,causes,Nausea,VERIFIED,real_edge,TRUE,VERIFIED
+777,Ganciclovir,interacts_with,Deutetrabenazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+778,Hydrocodone,treats,Eslicarbazepine acetate,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+779,Methotrimeprazine,causes,Drowsiness,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+780,Hydrocodone,interacts_with,Oxaprozin,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+781,Ifosfamide,causes,Deutetrabenazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+782,Telmisartan,causes,Rifampicin,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+783,Zonisamide,interacts_with,Methyldopa,VERIFIED,real_edge,TRUE,VERIFIED
+784,Midodrine,interacts_with,Pain,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+785,Phenylbutazone,interacts_with,Cefprozil,VERIFIED,real_edge,FALSE,HALLUCINATION
+786,Triazolam,treats,Ifosfamide,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+787,Sedation,treats,Hypoglycemia,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+788,Trifluoperazine,interacts_with,Oxaprozin,VERIFIED,real_edge,FALSE,HALLUCINATION
+789,Methyldopa,interacts_with,Cefprozil,VERIFIED,real_edge,FALSE,HALLUCINATION
+790,Cyclobenzaprine,interacts_with,Periciazine,VERIFIED,real_edge,TRUE,VERIFIED
+791,Hydrocodone,interacts_with,Stiripentol,VERIFIED,real_edge,FALSE,HALLUCINATION
+792,Flupentixol,interacts_with,Phenprocoumon,VERIFIED,real_edge,TRUE,VERIFIED
+793,Fever,causes,Potassium bicarbonate,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+794,Buprenorphine,interacts_with,Chlorhexidine,HALLUCINATION,domain_violation,TRUE,VERIFIED
+795,Buprenorphine,treats,Ketoconazole,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+796,Tiagabine,interacts_with,Metreleptin,VERIFIED,real_edge,FALSE,HALLUCINATION
+797,Periciazine,interacts_with,Arthritis,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+798,Diflunisal,treats,Meclofenamic acid,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+799,Hyperglycemia,treats,Oxazepam,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+800,Mesoridazine,treats,Fexofenadine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+801,Flupentixol,interacts_with,Mesoridazine,VERIFIED,real_edge,TRUE,VERIFIED
+802,Metyrosine,causes,Acetylsalicylic acid,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+803,Fexofenadine,treats,Mesoridazine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+804,Dipyridamole,treats,Drospirenone,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+805,Ketoconazole,interacts_with,Potassium bicarbonate,VERIFIED,real_edge,TRUE,VERIFIED
+806,Perphenazine,causes,Amantadine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+807,Ganciclovir,causes,Deutetrabenazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+808,Lepirudin,treats,Topotecan,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+809,Romidepsin,treats,Lymphoma,VERIFIED,real_edge,TRUE,VERIFIED
+810,Erdafitinib,treats,Flupentixol,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+811,Plantago seed,treats,Diarrhea,VERIFIED,real_edge,TRUE,VERIFIED
+812,Thiothixene,interacts_with,Romidepsin,VERIFIED,real_edge,FALSE,HALLUCINATION
+813,Prazepam,treats,Stiripentol,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+814,Vomiting,interacts_with,Perphenazine,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+815,Dimenhydrinate,treats,Thiothixene,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+816,Promethazine,interacts_with,Thiothixene,VERIFIED,real_edge,TRUE,VERIFIED
+817,Migraine,interacts_with,Valoctocogene roxaparvovec,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+818,Periciazine,interacts_with,Carcinogenicity,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+819,Acetylsalicylic acid,treats,Headache,VERIFIED,real_edge,TRUE,VERIFIED
+820,Viral_Infection,treats,Inflammation,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+821,Vildagliptin,causes,Eletriptan,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+822,Rifampicin,treats,Rheumatoid_Arthritis,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+823,Azathioprine,interacts_with,Amoxicillin,VERIFIED,real_edge,FALSE,HALLUCINATION
+824,Trifluoperazine,interacts_with,Chlorpheniramine,VERIFIED,real_edge,TRUE,VERIFIED
+825,Dronedarone,treats,Thyroid_Disorders,VERIFIED,real_edge,FALSE,HALLUCINATION
+826,Telithromycin,interacts_with,Dimenhydrinate,VERIFIED,real_edge,FALSE,HALLUCINATION
+827,Infection,causes,Meclofenamic acid,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+828,Mesoridazine,interacts_with,Acepromazine,VERIFIED,real_edge,TRUE,VERIFIED
+829,Tiagabine,interacts_with,Stiripentol,VERIFIED,real_edge,FALSE,HALLUCINATION
+830,Diflunisal,causes,Dipyridamole,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+831,Meclofenamic acid,treats,Fludeoxyglucose (18F),HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+832,Ranitidine,treats,Canakinumab,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+833,Valoctocogene roxaparvovec,interacts_with,Diabetes,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+834,Teratogenicity,causes,Mercaptopurine,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+835,Periciazine,causes,Hypotension,VERIFIED,real_edge,TRUE,VERIFIED
+836,Tiagabine,interacts_with,Mercaptopurine,VERIFIED,real_edge,TRUE,VERIFIED
+837,Bleeding,interacts_with,Depression,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+838,Thiothixene,causes,Dizziness,VERIFIED,real_edge,TRUE,VERIFIED
+839,Trifluoperazine,interacts_with,Acetylsalicylic acid,VERIFIED,real_edge,FALSE,HALLUCINATION
+840,Flupentixol,treats,Ondansetron,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+841,Ferric maltol,interacts_with,Cefuroxime,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+842,Gilteritinib,treats,Stroke,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+843,Phenylbutazone,interacts_with,Triazolam,VERIFIED,real_edge,FALSE,HALLUCINATION
+844,Ranitidine,causes,Sulodexide,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+845,Amoxicillin,interacts_with,Infection,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+846,Potassium bicarbonate,interacts_with,Zuclopenthixol,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+847,Rifampicin,interacts_with,Romidepsin,VERIFIED,real_edge,FALSE,HALLUCINATION
+848,Rifampicin,interacts_with,Exenatide,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+849,Sirolimus,treats,Inflammation,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+850,Famotidine,causes,Azathioprine,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+851,Bleeding,interacts_with,Stroke,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+852,Oxazepam,interacts_with,Zuclopenthixol,VERIFIED,real_edge,FALSE,HALLUCINATION
+853,Drowsiness,interacts_with,Diabetes,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+854,Canakinumab,treats,Romidepsin,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+855,Drospirenone,interacts_with,Vildagliptin,VERIFIED,real_edge,FALSE,HALLUCINATION
+856,Stiripentol,interacts_with,Letermovir,VERIFIED,real_edge,FALSE,HALLUCINATION
+857,Iron,interacts_with,Stroke,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+858,Triazolam,interacts_with,Periciazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+859,Ondansetron,interacts_with,Deutetrabenazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+860,Lomefloxacin,interacts_with,Oxaprozin,VERIFIED,real_edge,FALSE,HALLUCINATION
+861,Anxiety,treats,Telmisartan,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+862,Phenprocoumon,interacts_with,Ketoconazole,VERIFIED,real_edge,TRUE,VERIFIED
+863,Depression,causes,Enoxaparin,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+864,Perphenazine,interacts_with,Zuclopenthixol,VERIFIED,real_edge,TRUE,VERIFIED
+865,Letermovir,causes,Gilteritinib,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+866,Arrhythmia,treats,Gastric_Disorders,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+867,Hydroxyurea,interacts_with,Melphalan,VERIFIED,real_edge,TRUE,VERIFIED
+868,Midodrine,interacts_with,Seizure,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+869,Romidepsin,causes,Nausea,VERIFIED,real_edge,TRUE,VERIFIED
+870,Amoxicillin,interacts_with,Plantago seed,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+871,Sedation,causes,Glycopyrronium,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+872,Diabetes,interacts_with,Epilepsy,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+873,Urokinase,interacts_with,Hydroxyurea,VERIFIED,real_edge,FALSE,HALLUCINATION
+874,Stiripentol,interacts_with,Exenatide,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+875,Ranitidine,treats,Zuclopenthixol,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+876,Enoxaparin,treats,Hypothyroidism,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+877,Glycopyrronium,interacts_with,Cariprazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+878,Etacrynic acid,causes,Sulodexide,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+879,Teratogenicity,treats,Stiripentol,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+880,Flupentixol,treats,Romidepsin,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+881,Dipyridamole,interacts_with,Acepromazine,VERIFIED,real_edge,TRUE,VERIFIED
+882,Amantadine,interacts_with,Gilteritinib,VERIFIED,real_edge,TRUE,VERIFIED
+883,Dipyridamole,causes,Drowsiness,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+884,Promethazine,treats,Anxiety,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+885,Ketoconazole,treats,Schizophrenia,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+886,Eletriptan,interacts_with,Eslicarbazepine acetate,VERIFIED,real_edge,TRUE,VERIFIED
+887,Acepromazine,interacts_with,Stiripentol,VERIFIED,real_edge,FALSE,HALLUCINATION
+888,Zonisamide,interacts_with,Azathioprine,VERIFIED,real_edge,TRUE,VERIFIED
+889,Etacrynic acid,treats,Cefprozil,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+890,Telithromycin,causes,Liotrix,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+891,Ketotifen,treats,Headache,HALLUCINATION,domain_violation,TRUE,VERIFIED
+892,Chlorpheniramine,interacts_with,Chlorhexidine,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+893,Thiothixene,interacts_with,Dizziness,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+894,Constipation,causes,Fexofenadine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+895,Acepromazine,treats,Ganciclovir,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+896,Headache,treats,Diabetes,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+897,Periciazine,interacts_with,Eslicarbazepine acetate,VERIFIED,real_edge,TRUE,VERIFIED
+898,Cyclobenzaprine,treats,Prazepam,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+899,Midodrine,treats,Phenylbutazone,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+900,Ranitidine,interacts_with,Liotrix,VERIFIED,real_edge,FALSE,HALLUCINATION
+901,Fever,treats,Dipyridamole,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+902,Ketotifen,treats,Hepatotoxicity,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+903,Felbamate,interacts_with,Dronedarone,VERIFIED,real_edge,TRUE,VERIFIED
+904,Dronedarone,treats,Deutetrabenazine,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+905,Oxaprozin,interacts_with,Promethazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+906,Methyldopa,causes,Dizziness,VERIFIED,real_edge,TRUE,VERIFIED
+907,Hypotension,interacts_with,Hepatotoxicity,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+908,Ototoxicity,interacts_with,Triazolam,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+909,Promethazine,interacts_with,Deutetrabenazine,VERIFIED,real_edge,TRUE,VERIFIED
+910,Phenylbutazone,interacts_with,Headache,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+911,Letermovir,causes,Ferric maltol,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+912,Mesoridazine,interacts_with,Fludeoxyglucose (18F),HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+913,Gilteritinib,interacts_with,Deutetrabenazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+914,Famotidine,interacts_with,Romidepsin,VERIFIED,real_edge,FALSE,HALLUCINATION
+915,Phenylbutazone,interacts_with,Stiripentol,VERIFIED,real_edge,FALSE,HALLUCINATION
+916,Hydrocodone,treats,Schizophrenia,HALLUCINATION,domain_violation,FALSE,HALLUCINATION
+917,Bisacodyl,treats,Constipation,VERIFIED,real_edge,TRUE,VERIFIED
+918,Methyldopa,interacts_with,Procarbazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+919,Bleeding,causes,Cyclobenzaprine,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+920,Alfacalcidol,causes,Drowsiness,HALLUCINATION,domain_violation,TRUE,VERIFIED
+921,Ondansetron,interacts_with,Glycopyrronium,VERIFIED,real_edge,FALSE,HALLUCINATION
+922,Amantadine,interacts_with,Cefprozil,VERIFIED,real_edge,FALSE,HALLUCINATION
+923,Ototoxicity,interacts_with,Chlorhexidine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+924,Cefuroxime,treats,Prazepam,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+925,Headache,causes,Promethazine,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+926,Phenprocoumon,treats,Stroke,VERIFIED,real_edge,FALSE,HALLUCINATION
+927,Ondansetron,interacts_with,Rifampicin,VERIFIED,real_edge,TRUE,VERIFIED
+928,Ganciclovir,interacts_with,Topotecan,VERIFIED,real_edge,FALSE,HALLUCINATION
+929,Cyclobenzaprine,interacts_with,Gilteritinib,VERIFIED,real_edge,FALSE,HALLUCINATION
+930,Glycopyrronium,interacts_with,Arrhythmia,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+931,Perphenazine,interacts_with,Liotrix,VERIFIED,real_edge,FALSE,HALLUCINATION
+932,Dronedarone,treats,Stroke,VERIFIED,real_edge,FALSE,HALLUCINATION
+933,Melphalan,interacts_with,Ifosfamide,VERIFIED,real_edge,TRUE,VERIFIED
+934,Hydrocodone,interacts_with,Methotrimeprazine,VERIFIED,real_edge,TRUE,VERIFIED
+935,Etacrynic acid,interacts_with,Levofloxacin,VERIFIED,real_edge,TRUE,VERIFIED
+936,Cyclobenzaprine,interacts_with,Cariprazine,VERIFIED,real_edge,FALSE,HALLUCINATION
+937,Seizure,interacts_with,Chlorhexidine,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+938,Phenylbutazone,interacts_with,Ondansetron,VERIFIED,real_edge,FALSE,HALLUCINATION
+939,Ferric maltol,causes,Cyclobenzaprine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+940,Telmisartan,causes,Letermovir,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+941,Ondansetron,interacts_with,Cortisone acetate,VERIFIED,real_edge,FALSE,HALLUCINATION
+942,Ifosfamide,treats,Lymphoma,VERIFIED,real_edge,TRUE,VERIFIED
+943,Telithromycin,interacts_with,Zuclopenthixol,VERIFIED,real_edge,FALSE,HALLUCINATION
+944,Procarbazine,treats,Eslicarbazepine acetate,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+945,Hypotension,interacts_with,Bacterial_Infection,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+946,Promethazine,interacts_with,Romidepsin,VERIFIED,real_edge,FALSE,HALLUCINATION
+947,Fungal_Infection,treats,Acetylsalicylic acid,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+948,Drospirenone,causes,Hypotension,HALLUCINATION,nonexistent_relationship,TRUE,VERIFIED
+949,Telmisartan,interacts_with,Oxaprozin,VERIFIED,real_edge,FALSE,HALLUCINATION
+950,Diflunisal,interacts_with,Drowsiness,HALLUCINATION,wrong_predicate,TRUE,VERIFIED
+951,Cyclobenzaprine,interacts_with,Prazepam,VERIFIED,real_edge,FALSE,HALLUCINATION
+952,Rifabutin,interacts_with,Constipation,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+953,Metyrosine,interacts_with,Dimenhydrinate,VERIFIED,real_edge,FALSE,HALLUCINATION
+954,Telmisartan,causes,Cromoglicic acid,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+955,Tiagabine,causes,Ganciclovir,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+956,Telithromycin,interacts_with,Metreleptin,VERIFIED,real_edge,FALSE,HALLUCINATION
+957,Lomefloxacin,treats,Rifampicin,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+958,Hydrocodone,interacts_with,Ketoconazole,VERIFIED,real_edge,TRUE,VERIFIED
+959,Phenprocoumon,causes,Hyperglycemia,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+960,Methyldopa,interacts_with,Topotecan,VERIFIED,real_edge,FALSE,HALLUCINATION
+961,Deutetrabenazine,causes,Nausea,VERIFIED,real_edge,TRUE,VERIFIED
+962,Flupentixol,interacts_with,Vildagliptin,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+963,Zonisamide,interacts_with,Prazepam,VERIFIED,real_edge,FALSE,HALLUCINATION
+964,Mesoridazine,interacts_with,Lomefloxacin,VERIFIED,real_edge,FALSE,HALLUCINATION
+965,Acetylsalicylic acid,causes,Fever,HALLUCINATION,wrong_predicate,FALSE,HALLUCINATION
+966,Topotecan,interacts_with,Potassium bicarbonate,VERIFIED,real_edge,FALSE,HALLUCINATION
+967,Zonisamide,interacts_with,Ganciclovir,VERIFIED,real_edge,FALSE,HALLUCINATION
+968,Erdafitinib,treats,Angina,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+969,Felbamate,causes,Schizophrenia,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+970,Ondansetron,treats,Methyldopa,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION
+971,Telmisartan,interacts_with,Stiripentol,VERIFIED,real_edge,FALSE,HALLUCINATION
+972,Amantadine,interacts_with,Cyclobenzaprine,VERIFIED,real_edge,TRUE,VERIFIED
+973,Heart_Failure,treats,Cyclobenzaprine,HALLUCINATION,nonexistent_relationship,FALSE,HALLUCINATION

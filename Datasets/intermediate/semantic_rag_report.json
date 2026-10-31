@@ -1,0 +1,37 @@
+{
+  "generation_date": "2026-08-23 23:34:45",
+  "similarity_threshold": 0.35,
+  "test_set_size": 981,
+  "overall_performance": {
+    "TP": 261,
+    "TN": 400,
+    "FP": 0,
+    "FN": 320,
+    "accuracy": 0.6738022426095821,
+    "precision": 1.0,
+    "recall": 0.44922547332185886,
+    "f1": 0.6199524940617578
+  },
+  "category_breakdown": {
+    "nonexistent_relationship": {
+      "n": 297,
+      "correct": 219,
+      "accuracy": 0.7373737373737373
+    },
+    "real_edge": {
+      "n": 400,
+      "correct": 400,
+      "accuracy": 1.0
+    },
+    "wrong_predicate": {
+      "n": 200,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    "domain_violation": {
+      "n": 84,
+      "correct": 42,
+      "accuracy": 0.5
+    }
+  }
+}

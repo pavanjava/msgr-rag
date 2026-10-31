@@ -1,0 +1,99 @@
+{
+  "generation_date": "2026-08-23 22:23:21",
+  "entity_level": {
+    "total_entities": 149,
+    "drugs": 95,
+    "conditions": 42,
+    "adverse_effects": 12,
+    "total_relationships": 103552
+  },
+  "concept_level": {
+    "total_concepts": 39,
+    "drug_classes": 21,
+    "disease_categories": 11,
+    "toxicity_categories": 7,
+    "total_relationships": 348,
+    "entity_to_concept_mappings": 149
+  },
+  "domain_level": {
+    "total_domains": 16,
+    "domains_list": [
+      "Cardiology",
+      "Emergency_Medicine",
+      "Endocrinology",
+      "Gastroenterology",
+      "General_Medicine",
+      "Hematology",
+      "Hepatology",
+      "Infectious_Disease",
+      "Neurology",
+      "Oncology",
+      "Pain_Management",
+      "Pharmacology",
+      "Psychiatry",
+      "Pulmonology",
+      "Rheumatology",
+      "Toxicology"
+    ],
+    "total_relationships": 119,
+    "concept_to_domain_mappings": 39
+  },
+  "abstraction_functions": {
+    "phi_EC": {
+      "description": "Entity to Concept mapping",
+      "coverage": "149/149 (100.0%)"
+    },
+    "phi_CD": {
+      "description": "Concept to Domain mapping",
+      "coverage": "39/39 (100.0%)"
+    },
+    "phi_ED": {
+      "description": "Entity to Domain (transitive)",
+      "note": "\u03c6_ED = \u03c6_CD \u2218 \u03c6_EC"
+    }
+  },
+  "top_concepts": {
+    "drug_classes": {
+      "Other_Drugs": 53,
+      "Anticonvulsants": 4,
+      "NSAIDs": 4,
+      "Antibiotics": 4,
+      "Antipsychotics": 3,
+      "Anticoagulants": 3,
+      "Immunosuppressants": 3,
+      "Opioids": 2,
+      "H2_Receptor_Antagonists": 2,
+      "Antihistamines": 2
+    },
+    "disease_categories": {
+      "Cardiovascular_Diseases": 8,
+      "Metabolic_Disorders": 5,
+      "Gastrointestinal_Disorders": 5,
+      "Infectious_Diseases": 4,
+      "Oncological_Disorders": 4,
+      "Neurological_Disorders": 4,
+      "Psychiatric_Disorders": 4,
+      "Respiratory_Disorders": 3,
+      "Inflammatory_Disorders": 3,
+      "Pain_Disorders": 1
+    },
+    "toxicity_categories": {
+      "Neurological_Effects": 3,
+      "Organ_Toxicity": 3,
+      "Cardiovascular_Effects": 2,
+      "Gastrointestinal_Effects": 1,
+      "Carcinogenic_Effects": 1,
+      "Other_Toxicity": 1,
+      "Reproductive_Toxicity": 1
+    }
+  },
+  "relationship_abstraction": {
+    "entity_relationships": 103552,
+    "concept_relationships": 348,
+    "domain_relationships": 119,
+    "abstraction_ratio": {
+      "entity_to_concept": "1:297.6",
+      "concept_to_domain": "1:2.9"
+    }
+  }
+}
