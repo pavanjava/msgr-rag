@@ -53,6 +53,54 @@ Reason: All checks passed (C(f)=1.000, Conf(f)=1.000, no patterns)
 
 EXAMPLE 3: HALLUCINATION
 --------------------------------------------------------------------------------
+Fact: (Teratogenicity, causes, Vomiting)
+
+Multi-Scale Verification:
+  S_E (Entity):  0.100
+  S_C (Concept): 0.200
+  S_D (Domain):  1.000
+
+Cross-Scale Consistency:
+  C(f): 0.262
+
+Confidence:
+  Conf(f): 0.346
+
+Patterns Detected:
+  I3_Scale_Divergence
+
+Decision: HALLUCINATION
+Level: 1.0
+Reason: Low cross-scale consistency (C(f)=0.262 < 0.5)
+
+================================================================================
+
+EXAMPLE 4: VERIFIED
+--------------------------------------------------------------------------------
+Fact: (Cefprozil, causes, Diarrhea)
+
+Multi-Scale Verification:
+  S_E (Entity):  1.000
+  S_C (Concept): 0.400
+  S_D (Domain):  1.000
+
+Cross-Scale Consistency:
+  C(f): 0.543
+
+Confidence:
+  Conf(f): 0.736
+
+Patterns Detected:
+  I3_Scale_Divergence
+
+Decision: HALLUCINATION
+Level: 2.0
+Reason: Scale inconsistency patterns detected: I3_Scale_Divergence
+
+================================================================================
+
+EXAMPLE 5: HALLUCINATION
+--------------------------------------------------------------------------------
 Fact: (Hypotension, treats, Telithromycin)
 
 Multi-Scale Verification:
@@ -70,31 +118,7 @@ Patterns Detected:
   None
 
 Decision: HALLUCINATION
-Level: 1.0
-Reason: Low cross-scale consistency (C(f)=0.723 < 0.8)
-
-================================================================================
-
-EXAMPLE 4: HALLUCINATION
---------------------------------------------------------------------------------
-Fact: (Ototoxicity, causes, Iloprost)
-
-Multi-Scale Verification:
-  S_E (Entity):  0.100
-  S_C (Concept): 0.200
-  S_D (Domain):  0.300
-
-Cross-Scale Consistency:
-  C(f): 0.865
-
-Confidence:
-  Conf(f): 0.356
-
-Patterns Detected:
-  None
-
-Decision: HALLUCINATION
 Level: 3.0
-Reason: Low overall confidence (Conf(f)=0.356 < 0.5)
+Reason: Low overall confidence (Conf(f)=0.361 < 0.55)
 
 ================================================================================

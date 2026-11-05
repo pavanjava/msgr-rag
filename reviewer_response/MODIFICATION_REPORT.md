@@ -3,6 +3,9 @@
 All numbers below are reproducible: `cd reviewer_response && python3 -I analyses.py | edge_masking.py | judge_eval.py`.
 No frozen file or verifier code was changed. The headline matrix (TP 574 / FP 85 / FN 0 / TN 315; acc 91.27%, F1 93.11%) is re-asserted at the top of `analyses.py`.
 
+## Update, 5 Nov 2026 (Component 5 re-run)
+Per the co-author's CODE_FIXES.md: `detect_hallucination` defaults are now 0.50 / 0.55 and the unreachable `return 0.6` branch is removed from `verify_domain_level` in Components 5 and 6. Component 5 was re-run top to bottom: TP 574 / FP 85 / FN 0 / TN 315 (acc 91.27%, F1 93.11%). Previously saved decisions (at 0.80 / 0.50) were TP 488 / FP 118 / FN 86 / TN 282. Only `decision` (119 rows), `level_triggered` and `reason` changed; S_E, S_C, S_D, C(f), Conf(f) are identical. Rewritten: verification_results.csv, verification_report.json, verification_visualizations.png and also verification_details.txt. Nothing committed or pushed. I1 and I2 never fire on this set (only I3, 319 facts): say so in the paper. This closes the stale-`decision`-column and "unused 0.6" items below. Full report: `MSGR-RAG_reviewer_response_report_v2.pdf`.
+
 ## 0. Must-fix before resubmission (found while checking provenance)
 
 **0.1 Table 16 / Fig. 7 / "+19.5 points" / abstract claim "outperforms plain RAG on every category" are not supported.**

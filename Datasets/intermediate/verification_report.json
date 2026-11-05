@@ -1,21 +1,21 @@
 {
-  "generation_date": "2026-08-26 10:46:31",
+  "generation_date": "2026-11-05 14:04:21",
   "test_set": {
     "total_facts": 974,
     "verified_facts": 400,
     "hallucinated_facts": 574
   },
   "performance": {
-    "accuracy": 0.7905544147843943,
-    "precision": 0.8052805280528053,
-    "recall": 0.8501742160278746,
-    "f1_score": 0.8271186440677966
+    "accuracy": 0.9127310061601642,
+    "precision": 0.8710166919575114,
+    "recall": 1.0,
+    "f1_score": 0.9310624493106245
   },
   "confusion_matrix": {
-    "TP": 488,
-    "TN": 282,
-    "FP": 118,
-    "FN": 86
+    "TP": 574,
+    "TN": 315,
+    "FP": 85,
+    "FN": 0
   },
   "score_statistics": {
     "verified": {
@@ -34,8 +34,9 @@
     }
   },
   "detection_levels": {
-    "1.0": 474,
-    "3.0": 132
+    "1.0": 312,
+    "2.0": 7,
+    "3.0": 340
   },
   "patterns_detected": {
     "I3_Scale_Divergence": 319
